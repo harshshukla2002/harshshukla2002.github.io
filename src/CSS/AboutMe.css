@@ -1,0 +1,21 @@
+#about {
+    padding: 20px;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.education {
+    margin: 30px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.education-card {
+    padding: 20px;
+    font-family: 20px;
+    width: 90%;
+    background-color: #f7d1cd;
+}

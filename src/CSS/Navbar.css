@@ -14,3 +14,7 @@
 .margin-class {
     margin: 5px;
 }
+
+.online {
+    text-decoration: underline;
+}

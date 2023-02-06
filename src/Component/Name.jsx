@@ -1,4 +1,4 @@
-import { Flex, Heading, HStack, Image, SimpleGrid } from "@chakra-ui/react";
+import { Flex, Heading, Image, Stack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect"
 
@@ -18,29 +18,27 @@ function NameSection() {
     }, [width])
     return (
         <>
-            <div id='homesection' className="name-wrapper nav-link home">
-                <Flex justifyContent='space-between' alignItems='center'>
-                    <div>
-                        <SimpleGrid columns={[1, 2]}>
-                            <Heading size='lg'>
-                                <HStack spacing={3}>
-                                    <span>My Name is</span>
-                                    <span id="user-detail-name" style={{ color: "red" }}>
-                                        <Typewriter
-                                            options={{
-                                                autoStart: true,
-                                                loop: true,
-                                                delay: 50,
-                                                strings: ["Harsh Shukla"]
-                                            }}
-                                        /></span>
-                                </HStack>
-                            </Heading>
-                        </SimpleGrid>
+            <div id="home" className="name-wrapper nav-link home">
+                <Flex direction={width < 900 ? "column" : "row"} justifyContent='space-between' alignItems="center">
+                    <div style={{ width: "70%" }}>
+                        <Heading size='lg'>
+                            <Stack direction={['column', 'row']}>
+                                <span>My Name is</span>
+                                <span id="user-detail-name" style={{ color: "red" }}>
+                                    <Typewriter
+                                        options={{
+                                            autoStart: true,
+                                            loop: true,
+                                            delay: 50,
+                                            strings: ["Harsh Shukla"]
+                                        }}
+                                    /></span>
+                            </Stack>
+                        </Heading>
                         <br />
-                        <HStack spacing={3}>
-                            <Heading> I AM </Heading>
-                            <Heading>
+                        <Heading>
+                            <Stack direction={['column', 'row']}>
+                                <span> I AM </span>
                                 <span style={{ color: "red" }}>
                                     <Typewriter
                                         options={{
@@ -50,17 +48,21 @@ function NameSection() {
                                             strings: ["FULL STACK WEB DEVELOPER"]
                                         }}
                                     /></span>
-                            </Heading>
-                        </HStack>
+                            </Stack>
+                        </Heading>
                     </div>
-                    <Image w='20%' borderRadius='50%' src="https://i.postimg.cc/LX2pb64P/Profile-Image.jpg" />
+                    <div style={{ width: width < 900 ? "80%" : "20%", margin: "20px" }}>
+                        <Image className="home-img" borderRadius='50%' src="https://i.postimg.cc/LX2pb64P/Profile-Image.jpg" />
+                    </div>
                 </Flex>
                 <br />
                 <br />
                 <div>
-                    <h3 align="center" style={{ fontSize: "20px" }} id="user-detail-intro">A Full Stack Web Developer with more than 2000 hours of building, maintaining and deploying single page/eCommerce applications and specialized in Node, React , Express and mongoDB. A passionate, diligent person who wants to learn continuously.</h3>
+                    <h3 align="center" style={{ fontSize: "20px" }} id="user-detail-intro">
+                        A Full Stack Web Developer with more than 2000 hours of building, maintaining and deploying single page/eCommerce applications and specialized in Node, React , Express and mongoDB. A passionate, diligent person who wants to learn continuously.
+                    </h3>
                 </div>
-            </div>
+            </div >
         </>
     )
 }
