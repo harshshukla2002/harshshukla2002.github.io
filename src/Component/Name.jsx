@@ -18,51 +18,53 @@ function NameSection() {
     }, [width])
     return (
         <>
-            <div id="home" className="name-wrapper nav-link home">
-                <Flex direction={width < 900 ? "column" : "row"} justifyContent='space-between' alignItems="center">
-                    <div style={{ width: "70%" }}>
-                        <Heading size='lg'>
-                            <Stack direction={['column', 'row']}>
-                                <span>My Name is</span>
-                                <span id="user-detail-name" style={{ color: "red" }}>
-                                    <Typewriter
-                                        options={{
-                                            autoStart: true,
-                                            loop: true,
-                                            delay: 50,
-                                            strings: ["Harsh Shukla"]
-                                        }}
-                                    /></span>
-                            </Stack>
-                        </Heading>
-                        <br />
-                        <Heading>
-                            <Stack direction={['column', 'row']}>
-                                <span> I AM </span>
-                                <span style={{ color: "red" }}>
-                                    <Typewriter
-                                        options={{
-                                            autoStart: true,
-                                            loop: true,
-                                            delay: 50,
-                                            strings: ["FULL STACK WEB DEVELOPER"]
-                                        }}
-                                    /></span>
-                            </Stack>
-                        </Heading>
+            <section id="home" >
+                <div className="name-wrapper nav-link home">
+                    <Flex direction={width < 900 ? "column" : "row"} justifyContent='space-between' alignItems="center">
+                        <div style={{ width: "70%" }}>
+                            <Heading size='lg'>
+                                <Stack direction={['column', 'row']}>
+                                    <span>My Name is</span>
+                                    <span id="user-detail-name" style={{ color: "red" }}>
+                                        <Typewriter
+                                            options={{
+                                                autoStart: true,
+                                                loop: true,
+                                                delay: 50,
+                                                strings: ["Harsh Shukla"]
+                                            }}
+                                        /></span>
+                                </Stack>
+                            </Heading>
+                            <br />
+                            <Heading>
+                                <Stack direction={['column', 'row']}>
+                                    <span> I AM </span>
+                                    <span style={{ color: "red" }}>
+                                        <Typewriter
+                                            options={{
+                                                autoStart: true,
+                                                loop: true,
+                                                delay: 50,
+                                                strings: ["FULL STACK WEB DEVELOPER"]
+                                            }}
+                                        /></span>
+                                </Stack>
+                            </Heading>
+                        </div>
+                        <div style={{ width: width < 900 ? "80%" : "20%", margin: "20px" }}>
+                            <Image className="home-img" borderRadius='50%' src="https://i.postimg.cc/LX2pb64P/Profile-Image.jpg" />
+                        </div>
+                    </Flex>
+                    <br />
+                    <br />
+                    <div>
+                        <h3 align="center" style={{ fontSize: "20px" }}>
+                            A Full Stack Web Developer with more than 2000 hours of building, maintaining and deploying single page/eCommerce applications and specialized in Node, React , Express and mongoDB. A passionate, diligent person who wants to learn continuously.
+                        </h3>
                     </div>
-                    <div style={{ width: width < 900 ? "80%" : "20%", margin: "20px" }}>
-                        <Image className="home-img" borderRadius='50%' src="https://i.postimg.cc/LX2pb64P/Profile-Image.jpg" />
-                    </div>
-                </Flex>
-                <br />
-                <br />
-                <div>
-                    <h3 align="center" style={{ fontSize: "20px" }} id="user-detail-intro">
-                        A Full Stack Web Developer with more than 2000 hours of building, maintaining and deploying single page/eCommerce applications and specialized in Node, React , Express and mongoDB. A passionate, diligent person who wants to learn continuously.
-                    </h3>
-                </div>
-            </div >
+                </div >
+            </section>
         </>
     )
 }

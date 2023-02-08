@@ -5,6 +5,9 @@
     margin: auto;
     align-items: center;
     font-size: 20px;
+    overflow: hidden;
+    top: 0;
+    color: red;
 }
 
 .space {

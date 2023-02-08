@@ -3,6 +3,7 @@ import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { useEffect, useRef, useState } from "react";
 import { NavHashLink } from 'react-router-hash-link';
 import Resume from '../PDF/Harsh-Shukla-Resume.pdf'
+import '../CSS/Navbar.css'
 
 function NavBar() {
     const [width, setWidth] = useState(window.innerWidth);
