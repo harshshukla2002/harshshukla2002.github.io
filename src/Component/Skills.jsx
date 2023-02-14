@@ -7,7 +7,7 @@ function Skills() {
             <div>
                 <Heading textAlign={'left'}>Skills</Heading>
                 <div style={{ borderBottom: "5px solid red", width: "7%" }}></div>
-                <div className="skill-wrapper">
+                <div>
                     <SimpleGrid columns={[1, 2, 3]} >
                         <VStack className="vstack" spacing={5}>
                             <Heading size='lg'>Languages</Heading>
@@ -62,7 +62,7 @@ function Skills() {
                             </Box>
                         </VStack>
                         <VStack className="vstack" spacing={5}>
-                            <Heading size='lg' class="skills-card ">Testing</Heading>
+                            <Heading size='lg'>Testing</Heading>
                             <Box className="skills-card">
                                 <Image w='70%' m='10px' ml='30px' className="skills-card-img" src="https://i.postimg.cc/9fNqwdLk/index.png" />
                                 <p className="skills-card-name">Cypress</p>

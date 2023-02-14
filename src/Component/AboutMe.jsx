@@ -5,8 +5,8 @@ import { DownloadIcon } from '@chakra-ui/icons'
 
 function AboutMe() {
     return (
-        <section id="about">
-            <div className="about section">
+        <section>
+            <div id="about" className="about section">
                 <Heading textAlign={'left'}>About Me</Heading>
                 <div style={{ borderBottom: "5px solid red", width: "15%" }}></div>
                 <Flex direction={['column', "row"]} justifyContent='space-between' alignItems='center'>
@@ -15,14 +15,14 @@ function AboutMe() {
                             <span style={{ color: "red" }}>FULL STACK WEB DEVELOPER</span>
                         </Heading>
                     </>
-                    <a className="nav-link resume" id="resume-button-2" href={Resume} download="Harsh-Shukla-Resume">
-                        <Button className="margin-class" fontSize="20px" margin='0px 80px' colorScheme="red">
+                    <a className="nav-link resume" href={Resume} id="resume-button-2" onClick={() => window.open("https://drive.google.com/file/d/1XREqf6QqbzQUNSHqossE0c6bfzL6VOFM/view?usp=share_link")} download="Harsh-Shukla-Resume">
+                        <Button className="margin-class" colorScheme='red'>
                             <DownloadIcon /> Resume
                         </Button>
                     </a>
                 </Flex>
                 <p id="user-detail-intro" style={{ width: "90%", fontSize: "20px", margin: "20px", textAlign: 'justify' }}>
-                    I am a Full stack web developer doing militry style coding and learning MERN Stack at Masai School. I have done various group as well as individual projects in my coding journey. I also did my Bsc in Computer Science from Awadesh Pratap Singh University. My interests are coding, reading, listening music and exploring somthing new.
+                    I am a Full stack web developer doing militry style coding and learning MERN Stack at Masai School. I have done various group as well as individual projects using HTML, CSS, JavaScript, React , NodeJs, Express and MongoDB in my coding journey. I also did my Bsc in Computer Science from Awadesh Pratap Singh University. My interests are coding, reading, listening music and exploring somthing new.
                 </p>
                 <Heading size='lg' m='30px'>
                     Education

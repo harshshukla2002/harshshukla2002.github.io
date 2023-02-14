@@ -85,6 +85,31 @@ function Project() {
                             </HStack>
                         </div>
                     </Flex>
+                    <Flex className="project-card" direction={['column', 'row']} alignItems='center'>
+                        <div>
+                            <Heading className="project-title" m='20px 10px'>Dell Clone</Heading>
+                            <p className="project-description">
+                                Dell sells personal computers (PCs), servers, data storage devices, network switches, software, computer peripherals, HDTVs, cameras, printers, and electronics built by other manufacturers.
+                            </p>
+                            <HStack className="project-tech-stack" mt='20px'>
+                                <Image src='https://i.postimg.cc/15DBVr8X/icons8-react-30.png' />
+                                <Image src='https://i.postimg.cc/vHRSkjW0/icons8-css-48.png' />
+                                <Image w='35px' src='https://i.postimg.cc/zG0nTt8z/icons8-chakra-ui-48.png' />
+                            </HStack>
+                            <HStack mt='20px'>
+                                <Flex className="live project-github-link" alignItems='center' onClick={() => window.open("https://github.com/harshshukla2002/Dell-Clone")}>
+                                    <Image src='https://i.postimg.cc/26yhHzcV/icons8-github-24.pngs' />Github
+                                </Flex>
+                                <span>|</span>
+                                <div className="live project-deployed-link" onClick={() => window.open("https://steady-malabi-ac0416.netlify.app/")}>
+                                    <ExternalLinkIcon /> Live
+                                </div>
+                            </HStack>
+                        </div>
+                        <div className="project-image">
+                            <Image src="https://i.postimg.cc/g0s8GwXM/dell-clone.png" />
+                        </div>
+                    </Flex>
                 </div>
             </div>
         </section>
