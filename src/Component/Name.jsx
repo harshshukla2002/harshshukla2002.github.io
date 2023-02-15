@@ -46,14 +46,14 @@ function NameSection() {
                                                 autoStart: true,
                                                 loop: true,
                                                 delay: 50,
-                                                strings: ["FULL STACK WEB DEVELOPER"]
+                                                strings: ["FULL STACK WEB DEVELOPER", "MERN Developer", "React Developer"]
                                             }}
                                         /></span>
                                 </Stack>
                             </Heading>
                         </div>
-                        <div style={{ width: width < 900 ? "80%" : "20%", margin: "20px" }}>
-                            <Image className="home-img" borderRadius='50%' src="https://i.postimg.cc/LX2pb64P/Profile-Image.jpg" />
+                        <div style={{ width: width < 900 ? "80%" : "25%", margin: "20px" }}>
+                            <Image className="home-img" borderRadius='50%' src="https://i.postimg.cc/VsHDMpxZ/profile-Image.jpg" />
                         </div>
                     </Flex>
                     <br />
