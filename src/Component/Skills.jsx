@@ -69,6 +69,13 @@ function Skills() {
                             </Box>
                         </VStack>
                         <VStack className="vstack" spacing={5}>
+                            <Heading size='lg'>Static Site Generator</Heading>
+                            <Box className="skills-card">
+                                <Image w='40%' m='10px' ml='100px' className="skills-card-img" src="https://static-00.iconduck.com/assets.00/brand-nextjs-icon-256x256-zm2coebd.png" />
+                                <p className="skills-card-name">NextJS</p>
+                            </Box>
+                        </VStack>
+                        <VStack className="vstack" spacing={5}>
                             <Heading size='lg'>Other</Heading>
                             <Box className="skills-card">
                                 <Image className="skills-card-img" src="https://i.postimg.cc/yxT1cBVN/icons8-git-100.png" />
