@@ -185,7 +185,9 @@ function Project() {
                   className="live project-github-link"
                   alignItems="center"
                   onClick={() =>
-                    window.open("https://github.com/harshshukla2002/Dell-Clone")
+                    window.open(
+                      "https://github.com/harshshukla2002/SnapDeal-Clone"
+                    )
                   }
                 >
                   <Image src="https://i.postimg.cc/26yhHzcV/icons8-github-24.pngs" />
