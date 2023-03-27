@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.3d888d5d.css",
-    "main.js": "/static/js/main.f4ff362e.js",
+    "main.js": "/static/js/main.02063ff3.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Harsh-Shukla-Resume.pdf": "/static/media/Harsh-Shukla-Resume.02477860e7ba0855559e.pdf",
     "index.html": "/index.html",
     "main.3d888d5d.css.map": "/static/css/main.3d888d5d.css.map",
-    "main.f4ff362e.js.map": "/static/js/main.f4ff362e.js.map",
+    "main.02063ff3.js.map": "/static/js/main.02063ff3.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d888d5d.css",
-    "static/js/main.f4ff362e.js"
+    "static/js/main.02063ff3.js"
   ]
 }
