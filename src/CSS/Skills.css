@@ -1,24 +1,29 @@
 #skills {
-    padding: 20px;
-    text-align: left;
-    width: 90%;
-    margin: auto;
-    margin-top: 40px;
+  padding: 20px;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
 }
 
 .skill-wrapper {
-    margin: 20px;
+  margin: 20px;
 }
 
 .skills-card {
-    text-align: center;
-    margin: 10px;
+  text-align: center;
+  margin: 10px;
 }
 
-.skills-card-name{
-    font-size: 20px;
+.skills-card-name {
+  font-size: 20px;
 }
 
-.vstack{
-    margin: 20px;
+.vstack {
+  margin: 20px;
+}
+
+.skills-card-img {
+  width: 100px;
+  margin: 10px 0px;
 }

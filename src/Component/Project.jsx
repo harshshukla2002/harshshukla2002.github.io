@@ -1,5 +1,6 @@
 import { Flex, Heading, HStack, Image } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { FaGithubSquare } from "react-icons/fa";
 
 function Project() {
   return (
@@ -42,7 +43,11 @@ function Project() {
                     )
                   }
                 >
-                  <Image src="https://i.postimg.cc/26yhHzcV/icons8-github-24.pngs" />
+                  <FaGithubSquare
+                    size="20px"
+                    color="white"
+                    style={{ margin: "0px 3px" }}
+                  />
                   Github
                 </Flex>
                 <span>|</span>
@@ -88,7 +93,11 @@ function Project() {
                     )
                   }
                 >
-                  <Image src="https://i.postimg.cc/26yhHzcV/icons8-github-24.pngs" />
+                  <FaGithubSquare
+                    size="20px"
+                    color="white"
+                    style={{ margin: "0px 3px" }}
+                  />
                   Github
                 </Flex>
                 <span>|</span>
@@ -127,11 +136,14 @@ function Project() {
                 manufacturers.
               </p>
               <HStack className="project-tech-stack" mt="20px">
-                <Image src="https://i.postimg.cc/15DBVr8X/icons8-react-30.png" />
+                <Image
+                  width="30px"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8F70RXPSHHMFqpAxSMZ0v3bXHu5lQ3tw_Jh71sNgqoA&usqp=CAU&ec=48665699"
+                />
                 <Image src="https://i.postimg.cc/vHRSkjW0/icons8-css-48.png" />
                 <Image
-                  w="35px"
-                  src="https://i.postimg.cc/zG0nTt8z/icons8-chakra-ui-48.png"
+                  w="30px"
+                  src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"
                 />
               </HStack>
               <HStack mt="20px">
@@ -142,7 +154,11 @@ function Project() {
                     window.open("https://github.com/harshshukla2002/Dell-Clone")
                   }
                 >
-                  <Image src="https://i.postimg.cc/26yhHzcV/icons8-github-24.pngs" />
+                  <FaGithubSquare
+                    size="20px"
+                    color="white"
+                    style={{ margin: "0px 3px" }}
+                  />
                   Github
                 </Flex>
                 <span>|</span>
@@ -173,11 +189,14 @@ function Project() {
                 discounts and product categories
               </p>
               <HStack className="project-tech-stack" mt="20px">
-                <Image src="https://i.postimg.cc/15DBVr8X/icons8-react-30.png" />
+                <Image
+                  width="30px"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8F70RXPSHHMFqpAxSMZ0v3bXHu5lQ3tw_Jh71sNgqoA&usqp=CAU&ec=48665699"
+                />
                 <Image src="https://i.postimg.cc/vHRSkjW0/icons8-css-48.png" />
                 <Image
-                  w="35px"
-                  src="https://i.postimg.cc/zG0nTt8z/icons8-chakra-ui-48.png"
+                  w="30px"
+                  src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"
                 />
               </HStack>
               <HStack mt="20px">
@@ -190,7 +209,11 @@ function Project() {
                     )
                   }
                 >
-                  <Image src="https://i.postimg.cc/26yhHzcV/icons8-github-24.pngs" />
+                  <FaGithubSquare
+                    size="20px"
+                    color="white"
+                    style={{ margin: "0px 3px" }}
+                  />
                   Github
                 </Flex>
                 <span>|</span>
@@ -227,11 +250,14 @@ function Project() {
                 city.
               </p>
               <HStack className="project-tech-stack" mt="20px">
-                <Image src="https://i.postimg.cc/15DBVr8X/icons8-react-30.png" />
+                <Image
+                  width="30px"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8F70RXPSHHMFqpAxSMZ0v3bXHu5lQ3tw_Jh71sNgqoA&usqp=CAU&ec=48665699"
+                />
                 <Image src="https://i.postimg.cc/vHRSkjW0/icons8-css-48.png" />
                 <Image
-                  w="35px"
-                  src="https://i.postimg.cc/zG0nTt8z/icons8-chakra-ui-48.png"
+                  w="30px"
+                  src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"
                 />
               </HStack>
               <HStack mt="20px">
@@ -244,7 +270,11 @@ function Project() {
                     )
                   }
                 >
-                  <Image src="https://i.postimg.cc/26yhHzcV/icons8-github-24.pngs" />
+                  <FaGithubSquare
+                    size="20px"
+                    color="white"
+                    style={{ margin: "0px 3px" }}
+                  />
                   Github
                 </Flex>
                 <span>|</span>

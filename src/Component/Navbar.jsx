@@ -37,13 +37,13 @@ function NavBar() {
       className="navbar"
       style={{
         position: "fixed",
-        background: "white",
+        background: "black",
         width: "100%",
       }}
     >
       <div className="name-logo" style={{ fontSize: "30px" }}>
         {" "}
-        Harsh
+        HARSH
       </div>
       <div className="space"></div>
       <HStack spacing={50}>
@@ -77,6 +77,9 @@ function NavBar() {
                     </a>
                     <a className="nav-link skills" href="#skills" smooth>
                       Skills
+                    </a>
+                    <a className="nav-link home" href="#github" smooth>
+                      Github
                     </a>
                     <a className="nav-link projects" href="#projects" smooth>
                       Project
@@ -114,6 +117,9 @@ function NavBar() {
             </NavHashLink>
             <NavHashLink className="nav-link skills" to="#skills" smooth>
               Skills
+            </NavHashLink>
+            <NavHashLink className="nav-link about" to="#github" smooth>
+              Github
             </NavHashLink>
             <NavHashLink className="nav-link projects" to="#projects" smooth>
               Project
