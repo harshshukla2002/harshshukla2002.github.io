@@ -1,4 +1,4 @@
-import { Flex, Heading, Image, Stack } from "@chakra-ui/react";
+import { Flex, Heading, Stack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect";
 
@@ -19,7 +19,7 @@ function NameSection() {
   return (
     <>
       <section id="home">
-        <div className="name-wrapper nav-link home">
+        <div className="name-wrapper">
           <Flex
             direction={width < 900 ? "column" : "row"}
             justifyContent="space-between"
@@ -63,17 +63,21 @@ function NameSection() {
               </Heading>
             </div>
             <div style={{ width: width < 900 ? "80%" : "25%", margin: "20px" }}>
-              <Image
-                className="home-img"
-                borderRadius="50%"
-                src="https://i.postimg.cc/VsHDMpxZ/profile-Image.jpg"
-              />
+              <div className="container">
+                <div className="image-circle">
+                  <img
+                    className="home-img"
+                    src="https://i.postimg.cc/VsHDMpxZ/profile-Image.jpg"
+                    alt="Harsh Shukla"
+                  />
+                </div>
+              </div>
             </div>
           </Flex>
           <br />
           <br />
           <div>
-            <h3 align="center" style={{ fontSize: "20px" }}>
+            <h3 align="center" style={{ fontSize: "20px", color: "teal" }}>
               A Full Stack Web Developer with more than 2000 hours of building,
               maintaining and deploying single page/eCommerce applications and
               specialized in Node, React , Express and mongoDB. A passionate,

@@ -6,11 +6,12 @@
   align-items: center;
   font-size: 20px;
   top: 0;
-  color: red;
+  color: #00b4d8;
+  background: white;
 }
 
 .space {
-  margin: 0px 50px;
+  margin: 0px 30px;
 }
 
 .margin-class {

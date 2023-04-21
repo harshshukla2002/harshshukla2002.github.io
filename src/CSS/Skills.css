@@ -11,8 +11,9 @@
 }
 
 .skills-card {
-  text-align: center;
-  margin: 10px;
+  text-align: left;
+  margin: 5px;
+  align-items: center;
 }
 
 .skills-card-name {
@@ -24,6 +25,5 @@
 }
 
 .skills-card-img {
-  width: 100px;
-  margin: 10px 0px;
+  margin: 10px;
 }

@@ -16,7 +16,7 @@ import Contact from "./Component/Contact";
 
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: "black", color: "white" }}>
+    <div className="App">
       <NavBar />
       <hr />
       <NameSection />

@@ -37,11 +37,13 @@ function NavBar() {
       className="navbar"
       style={{
         position: "fixed",
-        background: "black",
         width: "100%",
       }}
     >
-      <div className="name-logo" style={{ fontSize: "30px" }}>
+      <div
+        className="name-logo"
+        style={{ fontSize: "25px", fontWeight: "bold" }}
+      >
         {" "}
         HARSH
       </div>
@@ -55,6 +57,7 @@ function NavBar() {
               color="black"
               fontSize={25}
               onClick={onOpen}
+              
             >
               <HamburgerIcon />
             </Button>
@@ -109,7 +112,7 @@ function NavBar() {
           </>
         ) : (
           <>
-            <NavHashLink className='"nav-link home"' to="#home" smooth>
+            <NavHashLink className="nav-link home" to="#home" smooth>
               Home
             </NavHashLink>
             <NavHashLink className="nav-link about" to="#about" smooth>

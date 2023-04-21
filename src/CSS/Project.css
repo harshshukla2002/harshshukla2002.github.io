@@ -1,19 +1,19 @@
 #projects {
-    padding: 20px;
-    text-align: center;
-    width: 90%;
-    margin: auto;
-    margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
 }
 
 .live {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .live:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .project-image {
-    margin: 30px;
+  margin: 30px;
 }

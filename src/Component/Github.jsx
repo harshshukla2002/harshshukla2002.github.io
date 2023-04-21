@@ -44,11 +44,8 @@ function Github() {
           alt="harshshukla2002"
         />
       </div>
-      <Card m="20px" p="20px" bg="black">
-        <div
-          className="react-activity-calendar"
-          style={{ background: "black", color: "white" }}
-        ></div>
+      <Card m="20px" p="20px">
+        <div className="react-activity-calendar"></div>
       </Card>
     </div>
   );

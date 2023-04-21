@@ -1,8 +1,23 @@
 import { Box, Card, Heading, Stack, Button, Flex } from "@chakra-ui/react";
 import Resume from "../PDF/Harsh-Shukla-Resume.pdf";
 import { DownloadIcon } from "@chakra-ui/icons";
+import { useEffect, useState } from "react";
 
 function AboutMe() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  const DetectWindowSize = () => {
+    setWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", DetectWindowSize);
+
+    return () => {
+      window.removeEventListener("resize", DetectWindowSize);
+    };
+  }, [width]);
+
   return (
     <section>
       <div id="about" className="about section">
@@ -16,7 +31,7 @@ function AboutMe() {
           <>
             <Heading size="lg" m="30px">
               I am Harsh Shukla <br />
-              <span style={{ color: "red" }}>FULL STACK WEB DEVELOPER</span>
+              <span style={{ color: "teal" }}>FULL STACK WEB DEVELOPER</span>
             </Heading>
           </>
           <a
@@ -55,22 +70,45 @@ function AboutMe() {
           Education
         </Heading>
         <Box className="education">
-          <Stack direction={["column", "row"]} gap="20">
-            <Card className="education-card" bg="AppWorkspace">
-              <Heading size="sm">Full stack Web Development(Full Time)</Heading>
-              <p>Masai School, Bengaluru</p>
-              <Box>
-                <i className="fa fa-calendar"></i> August 2022 - April 2023
-              </Box>
-            </Card>
-            <Card className="education-card" bg="AppWorkspace">
-              <Heading size="sm">Bsc in Computer Science</Heading>
-              <p>Awadesh Pratap Singh University, Rewa</p>
-              <Box>
-                <i className="fa fa-calendar"></i> July 2019 - July 2022
-              </Box>
-            </Card>
-          </Stack>
+          {width < 700 ? (
+            <Box>
+              <Card className="education-card" bg="AppWorkspace" m="10px 0px">
+                <Heading size="sm">
+                  Full stack Web Development(Full Time)
+                </Heading>
+                <p>Masai School, Bengaluru</p>
+                <Box>
+                  <i className="fa fa-calendar"></i> August 2022 - April 2023
+                </Box>
+              </Card>
+              <Card className="education-card" bg="AppWorkspace">
+                <Heading size="sm">Bsc in Computer Science</Heading>
+                <p>Awadesh Pratap Singh University, Rewa</p>
+                <Box>
+                  <i className="fa fa-calendar"></i> July 2019 - July 2022
+                </Box>
+              </Card>
+            </Box>
+          ) : (
+            <Stack direction={"row"} gap="20">
+              <Card className="education-card" bg="AppWorkspace">
+                <Heading size="sm">
+                  Full stack Web Development(Full Time)
+                </Heading>
+                <p>Masai School, Bengaluru</p>
+                <Box>
+                  <i className="fa fa-calendar"></i> August 2022 - April 2023
+                </Box>
+              </Card>
+              <Card className="education-card" bg="AppWorkspace">
+                <Heading size="sm">Bsc in Computer Science</Heading>
+                <p>Awadesh Pratap Singh University, Rewa</p>
+                <Box>
+                  <i className="fa fa-calendar"></i> July 2019 - July 2022
+                </Box>
+              </Card>
+            </Stack>
+          )}
         </Box>
       </div>
     </section>
