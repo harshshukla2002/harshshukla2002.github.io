@@ -67,7 +67,7 @@ function NameSection() {
                 <div className="image-circle">
                   <img
                     className="home-img"
-                    src="https://i.postimg.cc/VsHDMpxZ/profile-Image.jpg"
+                    src="https://i.postimg.cc/NFxXGp7s/DSC-0653.jpg"
                     alt="Harsh Shukla"
                   />
                 </div>

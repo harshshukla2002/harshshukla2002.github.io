@@ -32,20 +32,17 @@ function NavBar() {
     };
   }, [width]);
   return (
-    <div
-      id="nav-menu"
-      className="navbar"
-      style={{
-        position: "fixed",
-        width: "100%",
-      }}
-    >
+    <div id="nav-menu" className="navbar">
       <div
         className="name-logo"
         style={{ fontSize: "25px", fontWeight: "bold" }}
       >
         {" "}
-        HARSH
+        <img
+          width={"100px"}
+          src="https://i.postimg.cc/sgycFv0N/Screenshot-2023-05-02-112911.png"
+          alt="Harsh"
+        />
       </div>
       <div className="space"></div>
       <HStack spacing={50}>
@@ -57,7 +54,6 @@ function NavBar() {
               color="black"
               fontSize={25}
               onClick={onOpen}
-              
             >
               <HamburgerIcon />
             </Button>
