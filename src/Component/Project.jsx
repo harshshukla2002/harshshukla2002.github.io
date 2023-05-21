@@ -268,7 +268,7 @@ function Project() {
             alignItems="center"
           >
             <div className="project-image">
-              <Image src="https://camo.githubusercontent.com/87528560e0f04c3c5d65b2a8abdc376b3f7121ccf749e0bda3267e45fcc41acd/68747470733a2f2f692e706f7374696d672e63632f304e4367634252662f53637265656e73686f742d323032332d30342d31312d3138333833352e706e67" />
+              <Image src="https://i.postimg.cc/G2Rz80P6/Screenshot-2023-05-21-125648.png" />
             </div>
             <div style={{ width: "70%" }}>
               <Heading className="project-title" m="20px 10px">
@@ -304,7 +304,7 @@ function Project() {
                 <div
                   className="live project-deployed-link"
                   onClick={() =>
-                    window.open("https://mellow-pie-237390.netlify.app/")
+                    window.open("https://voluble-youtiao-659757.netlify.app/")
                   }
                 >
                   <ExternalLinkIcon /> Live
