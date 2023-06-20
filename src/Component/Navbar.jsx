@@ -77,7 +77,7 @@ function NavBar() {
                     <a className="nav-link skills" href="#skills" smooth>
                       Skills
                     </a>
-                    <a className="nav-link home" href="#github" smooth>
+                    <a className="nav-link github" href="#github" smooth>
                       Github
                     </a>
                     <a className="nav-link projects" href="#projects" smooth>
@@ -117,7 +117,7 @@ function NavBar() {
             <NavHashLink className="nav-link skills" to="#skills" smooth>
               Skills
             </NavHashLink>
-            <NavHashLink className="nav-link about" to="#github" smooth>
+            <NavHashLink className="nav-link github" to="#github" smooth>
               Github
             </NavHashLink>
             <NavHashLink className="nav-link projects" to="#projects" smooth>

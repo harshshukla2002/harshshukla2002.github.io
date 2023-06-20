@@ -34,21 +34,25 @@ function AboutMe() {
               <span style={{ color: "teal" }}>FULL STACK WEB DEVELOPER</span>
             </Heading>
           </>
-          <a
-            className="nav-link resume"
-            href={Resume}
+          <div
             id="resume-button-2"
             onClick={() =>
               window.open(
                 "https://drive.google.com/file/d/1XREqf6QqbzQUNSHqossE0c6bfzL6VOFM/view?usp=share_link"
               )
             }
-            download="Harsh-Shukla-Resume"
           >
-            <Button className="margin-class" colorScheme="red">
-              <DownloadIcon /> Resume
-            </Button>
-          </a>
+            <a
+              id="resume-link-2"
+              className="nav-link resume"
+              href={Resume}
+              download
+            >
+              <Button className="margin-class" colorScheme="red">
+                <DownloadIcon /> Resume
+              </Button>
+            </a>
+          </div>
         </Flex>
         <p
           id="user-detail-intro"
@@ -78,7 +82,7 @@ function AboutMe() {
                 </Heading>
                 <p>Masai School, Bengaluru</p>
                 <Box>
-                  <i className="fa fa-calendar"></i> August 2022 - April 2023
+                  <i className="fa fa-calendar"></i> August 2022 - July 2023
                 </Box>
               </Card>
               <Card className="education-card" bg="AppWorkspace">
@@ -97,7 +101,7 @@ function AboutMe() {
                 </Heading>
                 <p>Masai School, Bengaluru</p>
                 <Box>
-                  <i className="fa fa-calendar"></i> August 2022 - April 2023
+                  <i className="fa fa-calendar"></i> August 2022 - July 2023
                 </Box>
               </Card>
               <Card className="education-card" bg="AppWorkspace">

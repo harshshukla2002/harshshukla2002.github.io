@@ -7,29 +7,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
 }
-.container {
-  padding: 20px;
-}
 
-.image-circle {
-  width: 200px;
-  height: 200px;
+.home-img {
   border-radius: 50%;
-  border-top: 2px dashed #ffcc00;
-  border-right: 2px dashed #ffcc00;
-  border-left: 2px dashed #000000;
-  border-bottom: 2px dashed #000000;
-  padding: 10px;
-  animation: spin 10s infinite linear;
-}
-.image-circle img {
-  animation: spin 10s infinite reverse linear;
-  width: 100%;
-  border-radius: 50%;
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(1turn);
-  }
 }
