@@ -72,7 +72,7 @@ function NavBar() {
                       Home
                     </a>
                     <a className="nav-link about" href="#about" smooth>
-                      About Me
+                      About
                     </a>
                     <a className="nav-link skills" href="#skills" smooth>
                       Skills
@@ -112,7 +112,7 @@ function NavBar() {
               Home
             </NavHashLink>
             <NavHashLink className="nav-link about" to="#about" smooth>
-              About Me
+              About
             </NavHashLink>
             <NavHashLink className="nav-link skills" to="#skills" smooth>
               Skills
