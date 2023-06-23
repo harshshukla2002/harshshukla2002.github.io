@@ -1,8 +1,14 @@
 import { Flex, Heading, HStack, Image } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { FaGithubSquare, FaReact } from "react-icons/fa";
+import { FaGithubSquare, FaNodeJs, FaReact } from "react-icons/fa";
 import { MdJavascript, MdHtml, MdCss } from "react-icons/md";
-import { SiTypescript } from "react-icons/si";
+import {
+  SiExpress,
+  SiJsonwebtokens,
+  SiMongodb,
+  SiRedux,
+  SiTypescript,
+} from "react-icons/si";
 
 function Project() {
   return (
@@ -104,55 +110,6 @@ function Project() {
                     window.open(
                       "https://loquacious-centaur-45f47d.netlify.app/"
                     )
-                  }
-                >
-                  <ExternalLinkIcon /> Live
-                </div>
-              </HStack>
-            </div>
-          </Flex>
-          <Flex
-            className="project-card"
-            direction={["column", "row"]}
-            alignItems="center"
-          >
-            <div className="project-image">
-              <Image src="https://i.postimg.cc/g0s8GwXM/dell-clone.png" />
-            </div>
-            <div>
-              <Heading className="project-title" m="20px 10px">
-                Dell Clone
-              </Heading>
-              <p className="project-description">
-                Dell sells personal computers (PCs), servers, data storage
-                devices, network switches, software, computer peripherals,
-                HDTVs, cameras, printers, and electronics built by other
-                manufacturers.
-              </p>
-              <HStack className="project-tech-stack" mt="20px">
-                <FaReact size="30px" />
-                <MdCss size="40px" />
-                <Image
-                  w="30px"
-                  src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"
-                />
-              </HStack>
-              <HStack mt="20px">
-                <Flex
-                  className="live project-github-link"
-                  alignItems="center"
-                  onClick={() =>
-                    window.open("https://github.com/harshshukla2002/Dell-Clone")
-                  }
-                >
-                  <FaGithubSquare size="20px" style={{ margin: "0px 3px" }} />
-                  Github
-                </Flex>
-                <span>|</span>
-                <div
-                  className="live project-deployed-link"
-                  onClick={() =>
-                    window.open("https://steady-malabi-ac0416.netlify.app/")
                   }
                 >
                   <ExternalLinkIcon /> Live
@@ -308,7 +265,62 @@ function Project() {
                   }
                 >
                   <ExternalLinkIcon /> Live
-                </div>cl
+                </div>
+              </HStack>
+            </div>
+          </Flex>
+          <Flex
+            className="project-card"
+            direction={["column", "row"]}
+            alignItems="center"
+          >
+            <div className="project-image">
+              <Image src="https://i.postimg.cc/wvXg80xB/Screenshot-2023-06-23-221450.png" />
+            </div>
+            <div>
+              <Heading className="project-title" m="20px 10px">
+                Pomodoro Tracker Clone
+              </Heading>
+              <p className="project-description">
+                This app is for Pomodoro Technique using this we can increase
+                our focus and when we are doing some work we can start the timer
+                and work on that task in a given timer.
+              </p>
+              <HStack className="project-tech-stack" mt="20px">
+                <FaReact size="30px" />
+                <MdCss size="40px" />
+                <Image
+                  w="30px"
+                  src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"
+                />
+                <FaNodeJs size="30px" />
+                <SiRedux size="30px" />
+                <SiMongodb size="30px" />
+                <SiExpress size="30px" />
+                <SiJsonwebtokens size="30px" />
+              </HStack>
+              <HStack mt="20px">
+                <Flex
+                  className="live project-github-link"
+                  alignItems="center"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/harshshukla2002/Pomodoro-Clone"
+                    )
+                  }
+                >
+                  <FaGithubSquare size="20px" style={{ margin: "0px 3px" }} />
+                  Github
+                </Flex>
+                <span>|</span>
+                <div
+                  className="live project-deployed-link"
+                  onClick={() =>
+                    window.open("https://pomodoro-clone-eight.vercel.app/")
+                  }
+                >
+                  <ExternalLinkIcon /> Live
+                </div>
               </HStack>
             </div>
           </Flex>
