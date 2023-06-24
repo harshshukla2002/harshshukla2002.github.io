@@ -17,7 +17,7 @@ function Github() {
   }, []);
 
   return (
-    <div className="github" id="github">
+    <div className="github-section" id="github">
       <div className="heading">
         <Heading textAlign={"left"}>Github</Heading>
         <div style={{ borderBottom: "5px solid red", width: "10%" }}></div>
