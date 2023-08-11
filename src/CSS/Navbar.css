@@ -24,3 +24,18 @@
 .online {
   text-decoration: underline;
 }
+
+.nav-link:hover {
+  border-bottom: 2px solid skyblue;
+}
+
+.margin-class {
+  border-bottom: none;
+}
+
+.gradient-font {
+  background: #121fcf;
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

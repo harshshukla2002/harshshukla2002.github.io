@@ -1,20 +1,19 @@
 import { Card, Heading, SimpleGrid } from "@chakra-ui/react";
-import GitHubCalendar from "github-calendar";
-import { useEffect } from "react";
+import GitHubCalendar from "react-github-calendar";
 
 function Github() {
-  const GithubCalenderFunciton = async () => {
-    let response = await GitHubCalendar(
-      ".react-activity-calendar",
-      "harshshukla2002",
-      { responsive: true }
-    );
-    console.log(response);
-  };
+  // const GithubCalenderFunciton = async () => {
+  //   let response = await GitHubCalendar(
+  //     ".react-activity-calendar",
+  //     "harshshukla2002",
+  //     { responsive: true }
+  //   );
+  //   console.log(response);
+  // };
 
-  useEffect(() => {
-    GithubCalenderFunciton();
-  }, []);
+  // useEffect(() => {
+  //   GithubCalenderFunciton();
+  // }, []);
 
   return (
     <div className="github-section" id="github">
@@ -45,7 +44,7 @@ function Github() {
         />
       </div>
       <Card m="20px" p="20px">
-        <div className="react-activity-calendar"></div>
+        <GitHubCalendar username="harshshukla2002" />
       </Card>
     </div>
   );

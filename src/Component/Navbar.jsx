@@ -6,6 +6,7 @@ import {
   DrawerContent,
   DrawerOverlay,
   HStack,
+  Heading,
   SimpleGrid,
   useDisclosure,
 } from "@chakra-ui/react";
@@ -38,11 +39,7 @@ function NavBar() {
         style={{ fontSize: "25px", fontWeight: "bold" }}
       >
         {" "}
-        <img
-          width={"100px"}
-          src="https://i.postimg.cc/sgycFv0N/Screenshot-2023-05-02-112911.png"
-          alt="Harsh"
-        />
+        <Heading className="gradient-font">Harsh</Heading>
       </div>
       <div className="space"></div>
       <HStack spacing={50}>
@@ -138,7 +135,7 @@ function NavBar() {
               }
               download="Harsh-Shukla-Resume"
             >
-              <Button className="margin-class">
+              <Button className="margin-class" variant={"ghost"}>
                 <DownloadIcon /> Resume
               </Button>
             </a>
