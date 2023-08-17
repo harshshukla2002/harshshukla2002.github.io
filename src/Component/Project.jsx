@@ -7,8 +7,10 @@ import {
   SiJsonwebtokens,
   SiMongodb,
   SiRedux,
+  SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
+import { AiOutlineAntDesign } from "react-icons/ai";
 
 function Project() {
   return (
@@ -318,6 +320,55 @@ function Project() {
                   onClick={() =>
                     window.open("https://pomodoro-clone-eight.vercel.app/")
                   }
+                >
+                  <ExternalLinkIcon /> Live
+                </div>
+              </HStack>
+            </div>
+          </Flex>
+          <Flex
+            className="project-card"
+            direction={["column", "row"]}
+            alignItems="center"
+          >
+            <div className="project-image">
+              <Image src="https://camo.githubusercontent.com/27f34a754c42236f63ddfb1f6ba1dc5165e2e08b66fe89a35c0ad9209c448135/68747470733a2f2f692e706f7374696d672e63632f534b777a513678432f53637265656e73686f742d323032332d30382d31372d3039353034352e706e67" />
+            </div>
+            <div style={{ width: "70%" }}>
+              <Heading className="project-title" m="20px 10px">
+                Gleams Website
+              </Heading>
+              <p className="project-description">
+                This is the ecommerce website where user can purchase online
+                product like jwelery and watches according to their choices.
+              </p>
+              <HStack className="project-tech-stack" mt="20px">
+                <FaReact size="30px" />
+                <MdCss size="40px" />
+                <Image
+                  w="30px"
+                  src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"
+                />
+                <MdJavascript size={"40px"} />
+                <AiOutlineAntDesign size={"30px"} />
+                <SiRedux size="30px" />
+                <SiTailwindcss size="30px" />
+              </HStack>
+              <HStack mt="20px">
+                <Flex
+                  className="live project-github-link"
+                  alignItems="center"
+                  onClick={() =>
+                    window.open("https://github.com/harshshukla2002/Glems-App")
+                  }
+                >
+                  <FaGithubSquare size="20px" style={{ margin: "0px 3px" }} />
+                  Github
+                </Flex>
+                <span>|</span>
+                <div
+                  className="live project-deployed-link"
+                  onClick={() => window.open("https://gleams-app.vercel.app/")}
                 >
                   <ExternalLinkIcon /> Live
                 </div>
