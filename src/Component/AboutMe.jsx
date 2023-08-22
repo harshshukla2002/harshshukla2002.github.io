@@ -2,9 +2,13 @@ import { Box, Card, Heading, Stack, Button, Flex } from "@chakra-ui/react";
 import Resume from "../PDF/Harsh-Shukla-Resume.pdf";
 import { DownloadIcon } from "@chakra-ui/icons";
 import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function AboutMe() {
   const [width, setWidth] = useState(window.innerWidth);
+
+  AOS.init();
 
   const DetectWindowSize = () => {
     setWidth(window.innerWidth);
@@ -20,7 +24,7 @@ function AboutMe() {
 
   return (
     <section>
-      <div id="about" className="about section">
+      <div data-aos="zoom-in" id="about" className="about section">
         <Heading textAlign={"left"}>About Me</Heading>
         <div style={{ borderBottom: "5px solid red", width: "15%" }}></div>
         <Flex

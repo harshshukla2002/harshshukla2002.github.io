@@ -1,9 +1,13 @@
 import { Box, Flex, Heading, SimpleGrid, VStack } from "@chakra-ui/react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { useWidth } from "../CustomHooks/width";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Skills() {
   const width = useWidth();
+
+  AOS.init();
 
   return (
     <section id="skills">
@@ -11,6 +15,7 @@ function Skills() {
         <Heading textAlign={"left"}>Skills</Heading>
         <div style={{ borderBottom: "5px solid red", width: "7%" }}></div>
         <div
+          data-aos="fade-right"
           style={{
             border: "3px solid black",
             borderRadius: "5px",
@@ -195,6 +200,7 @@ function Skills() {
           </SimpleGrid>
         </div>
         <div
+          data-aos="fade-left"
           style={{
             border: "3px solid black",
             borderRadius: "5px",

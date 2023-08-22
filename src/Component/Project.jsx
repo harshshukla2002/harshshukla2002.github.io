@@ -11,8 +11,11 @@ import {
   SiTypescript,
 } from "react-icons/si";
 import { AiOutlineAntDesign } from "react-icons/ai";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Project() {
+  AOS.init();
   return (
     <section id="projects">
       <div>
@@ -21,57 +24,65 @@ function Project() {
           <div style={{ borderBottom: "5px solid red", width: "10%" }}></div>
         </div>
         <div className="project-wrapper">
+          <div data-aos="zoom-out">
+            <Flex
+              className="project-card"
+              direction={["column", "row"]}
+              alignItems="center"
+              margin={"10px"}
+            >
+              <div className="project-image">
+                <Image src="https://i.postimg.cc/zDHCmG7r/Chargeebee-clone.png" />
+              </div>
+              <div>
+                <Heading className="project-title" m="20px 10px">
+                  ChargeeBee Clone
+                </Heading>
+                <p className="project-description">
+                  Chargebee is a subscription management system which can help
+                  you handle all the aspects of the subscription life cycle
+                  including recurring billing, invoicing and trial management
+                  for customers.
+                </p>
+                <HStack className="project-tech-stack" mt="20px">
+                  <MdHtml size="40px" />
+                  <MdCss size="40px" />
+                  <MdJavascript size="40px" />
+                </HStack>
+                <HStack mt="20px">
+                  <Flex
+                    className="live project-github-link"
+                    alignItems="center"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/harshshukla2002/ChargeBee-Clone"
+                      )
+                    }
+                  >
+                    <FaGithubSquare size="20px" style={{ margin: "0px 3px" }} />
+                    Github
+                  </Flex>
+                  <span>|</span>
+                  <div
+                    className="live project-deployed-link"
+                    onClick={() =>
+                      window.open(
+                        "https://stalwart-stardust-e2768b.netlify.app/"
+                      )
+                    }
+                  >
+                    <ExternalLinkIcon /> Live
+                  </div>
+                </HStack>
+              </div>
+            </Flex>
+          </div>
           <Flex
+            data-aos="zoom-out"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
-          >
-            <div className="project-image">
-              <Image src="https://i.postimg.cc/zDHCmG7r/Chargeebee-clone.png" />
-            </div>
-            <div>
-              <Heading className="project-title" m="20px 10px">
-                ChargeeBee Clone
-              </Heading>
-              <p className="project-description">
-                Chargebee is a subscription management system which can help you
-                handle all the aspects of the subscription life cycle including
-                recurring billing, invoicing and trial management for customers.
-              </p>
-              <HStack className="project-tech-stack" mt="20px">
-                <MdHtml size="40px" />
-                <MdCss size="40px" />
-                <MdJavascript size="40px" />
-              </HStack>
-              <HStack mt="20px">
-                <Flex
-                  className="live project-github-link"
-                  alignItems="center"
-                  onClick={() =>
-                    window.open(
-                      "https://github.com/harshshukla2002/ChargeBee-Clone"
-                    )
-                  }
-                >
-                  <FaGithubSquare size="20px" style={{ margin: "0px 3px" }} />
-                  Github
-                </Flex>
-                <span>|</span>
-                <div
-                  className="live project-deployed-link"
-                  onClick={() =>
-                    window.open("https://stalwart-stardust-e2768b.netlify.app/")
-                  }
-                >
-                  <ExternalLinkIcon /> Live
-                </div>
-              </HStack>
-            </div>
-          </Flex>
-          <Flex
-            className="project-card"
-            direction={["column", "row"]}
-            alignItems="center"
+            margin={"10px"}
           >
             <div className="project-image">
               <Image src="https://i.postimg.cc/VLFYGX3H/tripadvisor-clone.png" />
@@ -120,9 +131,11 @@ function Project() {
             </div>
           </Flex>
           <Flex
+            data-aos="zoom-out"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
+            margin={"10px"}
           >
             <div className="project-image">
               <Image src="https://user-images.githubusercontent.com/112845916/221496830-378aef53-138f-41ae-bf32-152d0ab1badf.png" />
@@ -173,9 +186,11 @@ function Project() {
             </div>
           </Flex>
           <Flex
+            data-aos="zoom-out"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
+            margin={"10px"}
           >
             <div className="project-image">
               <Image src="https://i.postimg.cc/7L5gFvYt/Screenshot-2023-03-24-200537.png" />
@@ -222,9 +237,11 @@ function Project() {
             </div>
           </Flex>
           <Flex
+            data-aos="zoom-out"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
+            margin={"10px"}
           >
             <div className="project-image">
               <Image src="https://i.postimg.cc/G2Rz80P6/Screenshot-2023-05-21-125648.png" />
@@ -272,9 +289,11 @@ function Project() {
             </div>
           </Flex>
           <Flex
+            data-aos="zoom-out"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
+            margin={"10px"}
           >
             <div className="project-image">
               <Image src="https://i.postimg.cc/wvXg80xB/Screenshot-2023-06-23-221450.png" />
@@ -327,9 +346,11 @@ function Project() {
             </div>
           </Flex>
           <Flex
+            data-aos="zoom-out"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
+            margin={"10px"}
           >
             <div className="project-image">
               <Image src="https://camo.githubusercontent.com/27f34a754c42236f63ddfb1f6ba1dc5165e2e08b66fe89a35c0ad9209c448135/68747470733a2f2f692e706f7374696d672e63632f534b777a513678432f53637265656e73686f742d323032332d30382d31372d3039353034352e706e67" />
