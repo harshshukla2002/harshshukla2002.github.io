@@ -24,7 +24,12 @@ function AboutMe() {
 
   return (
     <section>
-      <div data-aos="zoom-in" id="about" className="about section">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        id="about"
+        className="about section"
+      >
         <Heading textAlign={"left"}>About Me</Heading>
         <div style={{ borderBottom: "5px solid red", width: "15%" }}></div>
         <Flex

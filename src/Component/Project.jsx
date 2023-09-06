@@ -24,7 +24,7 @@ function Project() {
           <div style={{ borderBottom: "5px solid red", width: "10%" }}></div>
         </div>
         <div className="project-wrapper">
-          <div data-aos="zoom-out">
+          <div data-aos="zoom-out" data-aos-duration="2000">
             <Flex
               className="project-card"
               direction={["column", "row"]}
@@ -79,6 +79,7 @@ function Project() {
           </div>
           <Flex
             data-aos="zoom-out"
+            data-aos-duration="2000"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
@@ -132,6 +133,7 @@ function Project() {
           </Flex>
           <Flex
             data-aos="zoom-out"
+            data-aos-duration="2000"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
@@ -187,6 +189,7 @@ function Project() {
           </Flex>
           <Flex
             data-aos="zoom-out"
+            data-aos-duration="2000"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
@@ -238,6 +241,7 @@ function Project() {
           </Flex>
           <Flex
             data-aos="zoom-out"
+            data-aos-duration="2000"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
@@ -290,6 +294,7 @@ function Project() {
           </Flex>
           <Flex
             data-aos="zoom-out"
+            data-aos-duration="2000"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"
@@ -347,6 +352,7 @@ function Project() {
           </Flex>
           <Flex
             data-aos="zoom-out"
+            data-aos-duration="2000"
             className="project-card"
             direction={["column", "row"]}
             alignItems="center"

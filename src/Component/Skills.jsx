@@ -16,8 +16,8 @@ function Skills() {
         <div style={{ borderBottom: "5px solid red", width: "7%" }}></div>
         <div
           data-aos="fade-right"
+          data-aos-duration="2000"
           style={{
-            border: "3px solid black",
             borderRadius: "5px",
             margin: "20px",
             padding: "10px",
@@ -201,8 +201,8 @@ function Skills() {
         </div>
         <div
           data-aos="fade-left"
+          data-aos-duration="2000"
           style={{
-            border: "3px solid black",
             borderRadius: "5px",
             margin: "20px",
             padding: "10px",

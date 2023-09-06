@@ -29,9 +29,8 @@
 }
 
 .skills-box {
-  background: #edf6f9;
   cursor: pointer;
-  transition: ease-in-out;
+  transition: all ease-in-out;
 }
 
 .skills-box:hover {

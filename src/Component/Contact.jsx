@@ -11,7 +11,11 @@ function Contact() {
           <Heading textAlign={"left"}>Contact</Heading>
           <div style={{ borderBottom: "5px solid red", width: "10%" }}></div>
         </div>
-        <div data-aos="zoom-in-down" direction={["column", "row"]}>
+        <div
+          data-aos="zoom-in-down"
+          data-aos-duration="2000"
+          direction={["column", "row"]}
+        >
           <Card p="20px" m="20px" bg="ButtonFace">
             <div className="contact-item">
               <i className="fa fa-map-marker"></i>{" "}
