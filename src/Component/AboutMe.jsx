@@ -72,12 +72,13 @@ function AboutMe() {
             textAlign: "justify",
           }}
         >
-          I am a Full stack web developer doing militry style coding and
-          learning MERN Stack at Masai School. I have done various group as well
-          as individual projects using HTML, CSS, JavaScript, React , NodeJs,
-          Express and MongoDB in my coding journey. I also did my Bsc in
-          Computer Science from Awadesh Pratap Singh University. My interests
-          are coding, reading, listening music and exploring somthing new.
+          I am a full-stack web developer doing military-style coding and
+          learning MERN Stack at Masai School. I have done various group
+          projects as well. as individual projects using HTML, CSS,
+          JavaScript,React, NodeJs,Express and MongoDB in my coding journey. I
+          also did my B.Sc. in Computer Science from Awadesh Pratap Singh
+          University. My interests are coding, reading, listening to music, and
+          exploring something new.
         </p>
         <Heading size="lg" m="30px">
           Education

@@ -91,9 +91,9 @@ function NameSection() {
             <br />
             <div>
               <h3 align="center" style={{ fontSize: "20px", color: "teal" }}>
-                A Full Stack Web Developer with more than 2000 hours of
-                building, maintaining and deploying single page/eCommerce
-                applications and specialized in Node, React , Express and
+                A full-stack web developer with more than 2000 hours of
+                building, maintaining, and deploying single-page/e-commerce
+                applications and specialized in Node, React, Express, and
                 mongoDB. A passionate, diligent person who wants to learn
                 continuously.
               </h3>

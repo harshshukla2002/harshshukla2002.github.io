@@ -30,7 +30,7 @@
 
 .skills-box {
   cursor: pointer;
-  transition: all ease-in-out;
+  transition: 0.3s;
 }
 
 .skills-box:hover {

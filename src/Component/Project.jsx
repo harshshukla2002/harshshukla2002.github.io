@@ -395,7 +395,7 @@ function Project() {
                 <span>|</span>
                 <div
                   className="live project-deployed-link"
-                  onClick={() => window.open("https://gleams-app.vercel.app/")}
+                  onClick={() => window.open("https://glems-eyy4alzt7-harshshukla2002.vercel.app/")}
                 >
                   <ExternalLinkIcon /> Live
                 </div>

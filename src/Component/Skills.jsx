@@ -1,5 +1,20 @@
 import { Box, Flex, Heading, SimpleGrid, VStack } from "@chakra-ui/react";
+import { DiJavascript1, DiHtml5 } from "react-icons/di";
+import { TbBrandNextjs, TbBrandVscode } from "react-icons/tb";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import {
+  SiTypescript,
+  SiCss3,
+  SiReact,
+  SiRedux,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiCypress,
+  SiJest,
+  SiGithub,
+} from "react-icons/si";
 import { useWidth } from "../CustomHooks/width";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -35,17 +50,11 @@ function Skills() {
                 className="skills-box"
               >
                 <Flex className="skills-card">
-                  <AiOutlineArrowRight
-                    size="20px"
-                    className="skills-card-img"
-                  />
+                  <DiJavascript1 size="20px" className="skills-card-img" />
                   <p className="skills-card-name">JavaScript</p>
                 </Flex>
                 <Flex className="skills-card">
-                  <AiOutlineArrowRight
-                    size="20px"
-                    className="skills-card-img"
-                  />
+                  <SiTypescript size="20px" className="skills-card-img" />
                   <p className="skills-card-name">TypeScript</p>
                 </Flex>
               </Box>
@@ -60,24 +69,15 @@ function Skills() {
               >
                 <SimpleGrid columns={[1, 2]}>
                   <Flex className="skills-card">
-                    <AiOutlineArrowRight
-                      size="20px"
-                      className="skills-card-img"
-                    />
+                    <DiHtml5 size="20px" className="skills-card-img" />
                     <p className="skills-card-name">HTML</p>
                   </Flex>
                   <Flex className="skills-card">
-                    <AiOutlineArrowRight
-                      size="20px"
-                      className="skills-card-img"
-                    />
+                    <SiCss3 size="20px" className="skills-card-img" />
                     <p className="skills-card-name">CSS</p>
                   </Flex>
                   <Flex className="skills-card">
-                    <AiOutlineArrowRight
-                      size="20px"
-                      className="skills-card-img"
-                    />
+                    <SiReact size="20px" className="skills-card-img" />
                     <p className="skills-card-name">React</p>
                   </Flex>
                   <Flex
@@ -85,17 +85,11 @@ function Skills() {
                     alignItems={"center"}
                     justifyContent={"flex-start"}
                   >
-                    <AiOutlineArrowRight
-                      size="20px"
-                      className="skills-card-img"
-                    />
+                    <SiRedux size="20px" className="skills-card-img" />
                     <p className="skills-card-name">Redux</p>
                   </Flex>
                   <Flex className="skills-card">
-                    <AiOutlineArrowRight
-                      size="20px"
-                      className="skills-card-img"
-                    />
+                    <SiTailwindcss size="20px" className="skills-card-img" />
                     <p className="skills-card-name">TailwindCSS</p>
                   </Flex>
                 </SimpleGrid>
@@ -110,24 +104,15 @@ function Skills() {
                 className="skills-box"
               >
                 <Flex className="skills-card">
-                  <AiOutlineArrowRight
-                    size="20px"
-                    className="skills-card-img"
-                  />
+                  <SiNodedotjs size="20px" className="skills-card-img" />
                   <p className="skills-card-name">NodeJS</p>
                 </Flex>
                 <Flex className="skills-card">
-                  <AiOutlineArrowRight
-                    size="20px"
-                    className="skills-card-img"
-                  />
+                  <SiExpress size="20px" className="skills-card-img" />
                   <p className="skills-card-name">Express</p>
                 </Flex>
                 <Flex className="skills-card">
-                  <AiOutlineArrowRight
-                    size="20px"
-                    className="skills-card-img"
-                  />
+                  <TbBrandNextjs size="20px" className="skills-card-img" />
                   <p className="skills-card-name">NextJS</p>
                 </Flex>
               </Box>
@@ -141,10 +126,7 @@ function Skills() {
                 className="skills-box"
               >
                 <Flex className="skills-card">
-                  <AiOutlineArrowRight
-                    size="20px"
-                    className="skills-card-img"
-                  />
+                  <SiMongodb size="20px" className="skills-card-img" />
                   <p className="skills-card-name">mongoDB</p>
                 </Flex>
               </Box>
@@ -158,17 +140,11 @@ function Skills() {
                 className="skills-box"
               >
                 <Flex className="skills-card">
-                  <AiOutlineArrowRight
-                    size="20px"
-                    className="skills-card-img"
-                  />
+                  <SiCypress size="20px" className="skills-card-img" />
                   <p className="skills-card-name">Cypress</p>
                 </Flex>
                 <Flex className="skills-card">
-                  <AiOutlineArrowRight
-                    size="20px"
-                    className="skills-card-img"
-                  />
+                  <SiJest size="20px" className="skills-card-img" />
                   <p className="skills-card-name">Jest</p>
                 </Flex>
               </Box>
@@ -182,17 +158,11 @@ function Skills() {
                 className="skills-box"
               >
                 <Flex className="skills-card">
-                  <AiOutlineArrowRight
-                    size="20px"
-                    className="skills-card-img"
-                  />
+                  <SiGithub size="20px" className="skills-card-img" />
                   <p className="skills-card-name">Git</p>
                 </Flex>
                 <Flex className="skills-card">
-                  <AiOutlineArrowRight
-                    size="20px"
-                    className="skills-card-img"
-                  />
+                  <TbBrandVscode size="20px" className="skills-card-img" />
                   <p className="skills-card-name">VS Code</p>
                 </Flex>
               </Box>
