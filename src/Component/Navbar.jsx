@@ -15,15 +15,21 @@ import { useEffect, useRef, useState } from "react";
 import { NavHashLink } from "react-router-hash-link";
 import Resume from "../PDF/Harsh-Shukla-Resume.pdf";
 import "../CSS/Navbar.css";
+import { useLocation } from "react-router-dom";
 
 function NavBar() {
   const [width, setWidth] = useState(window.innerWidth);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = useRef();
+  const { hash } = useLocation();
 
   const DetectWindowSize = () => {
     setWidth(window.innerWidth);
   };
+
+  useEffect(() => {
+    onClose();
+  }, [hash]);
 
   useEffect(() => {
     window.addEventListener("resize", DetectWindowSize);
@@ -64,7 +70,7 @@ function NavBar() {
               <DrawerContent>
                 <DrawerCloseButton />
                 <DrawerBody>
-                  <SimpleGrid columns={[1, 3, 6]} p="10px" textAlign="center">
+                  <SimpleGrid columns={[2, 3, 6]} p="10px" textAlign="center">
                     <a className="nav-link home" href="#home" smooth>
                       Home
                     </a>

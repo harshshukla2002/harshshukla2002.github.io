@@ -74,7 +74,7 @@ function AboutMe() {
         >
           I am a full-stack web developer doing military-style coding and
           learning MERN Stack at Masai School. I have done various group
-          projects as well. as individual projects using HTML, CSS,
+          projects as well as individual projects using HTML, CSS,
           JavaScript,React, NodeJs,Express and MongoDB in my coding journey. I
           also did my B.Sc. in Computer Science from Awadesh Pratap Singh
           University. My interests are coding, reading, listening to music, and
