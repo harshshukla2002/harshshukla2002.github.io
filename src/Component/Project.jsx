@@ -27,7 +27,7 @@ function Project() {
           <div data-aos="zoom-out" data-aos-duration="2000">
             <Flex
               className="project-card"
-              direction={["column", "row"]}
+              direction={["column"]}
               alignItems="center"
               margin={"10px"}
             >
@@ -81,7 +81,7 @@ function Project() {
             data-aos="zoom-out"
             data-aos-duration="2000"
             className="project-card"
-            direction={["column", "row"]}
+            direction={["column"]}
             alignItems="center"
             margin={"10px"}
           >
@@ -135,7 +135,7 @@ function Project() {
             data-aos="zoom-out"
             data-aos-duration="2000"
             className="project-card"
-            direction={["column", "row"]}
+            direction={["column"]}
             alignItems="center"
             margin={"10px"}
           >
@@ -191,7 +191,7 @@ function Project() {
             data-aos="zoom-out"
             data-aos-duration="2000"
             className="project-card"
-            direction={["column", "row"]}
+            direction={["column"]}
             alignItems="center"
             margin={"10px"}
           >
@@ -243,7 +243,7 @@ function Project() {
             data-aos="zoom-out"
             data-aos-duration="2000"
             className="project-card"
-            direction={["column", "row"]}
+            direction={["column"]}
             alignItems="center"
             margin={"10px"}
           >
@@ -296,7 +296,7 @@ function Project() {
             data-aos="zoom-out"
             data-aos-duration="2000"
             className="project-card"
-            direction={["column", "row"]}
+            direction={["column"]}
             alignItems="center"
             margin={"10px"}
           >
@@ -354,7 +354,7 @@ function Project() {
             data-aos="zoom-out"
             data-aos-duration="2000"
             className="project-card"
-            direction={["column", "row"]}
+            direction={["column"]}
             alignItems="center"
             margin={"10px"}
           >

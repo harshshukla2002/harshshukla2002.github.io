@@ -41,14 +41,7 @@ function NameSection() {
                   <Stack direction={["column", "row"]}>
                     <span>My Name is</span>
                     <span id="user-detail-name" style={{ color: "red" }}>
-                      <Typewriter
-                        options={{
-                          autoStart: true,
-                          loop: true,
-                          delay: 50,
-                          strings: ["Harsh Shukla"],
-                        }}
-                      />
+                      Harsh Shukla
                     </span>
                   </Stack>
                 </Heading>

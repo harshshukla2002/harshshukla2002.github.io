@@ -9,3 +9,8 @@
 .contact-item{
     margin: 10px;
 }
+
+.contact-card{
+    display: flex;
+    flex-direction: row;
+}

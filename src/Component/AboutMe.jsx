@@ -92,7 +92,7 @@ function AboutMe() {
                 </Heading>
                 <p>Masai School, Bengaluru</p>
                 <Box>
-                  <i className="fa fa-calendar"></i> August 2022 - July 2023
+                  <i className="fa fa-calendar"></i> August 2022 - October 2023
                 </Box>
               </Card>
               <Card className="education-card" bg="AppWorkspace">
@@ -111,7 +111,7 @@ function AboutMe() {
                 </Heading>
                 <p>Masai School, Bengaluru</p>
                 <Box>
-                  <i className="fa fa-calendar"></i> August 2022 - July 2023
+                  <i className="fa fa-calendar"></i> August 2022 - October 2023
                 </Box>
               </Card>
               <Card className="education-card" bg="AppWorkspace">

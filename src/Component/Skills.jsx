@@ -91,7 +91,7 @@ function Skills() {
                     justifyContent={"flex-start"}
                   >
                     <img
-                      src="https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png"
+                      src="https://www.taniarascia.com/static/987371fab3463c3496c5a6447b32553f/56e34/redux.png"
                       alt=""
                       className="skills-card-img"
                     />
@@ -178,7 +178,7 @@ function Skills() {
                 </Flex>
                 <Flex className="skills-card">
                   <img
-                    src="https://assets.stickpng.com/images/62a765b6bd73a4af5c5d4fbb.png"
+                    src="https://www.danielcornock.co.uk/assets/images/article-icons/jest.png"
                     alt=""
                     className="skills-card-img"
                   />
