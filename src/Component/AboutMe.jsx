@@ -31,7 +31,7 @@ function AboutMe() {
         className="about section"
       >
         <Heading textAlign={"left"}>About Me</Heading>
-        <div style={{ borderBottom: "5px solid red", width: "15%" }}></div>
+        <div style={{ borderBottom: "5px solid blue", width: "15%" }}></div>
         <Flex
           direction={["column", "row"]}
           justifyContent="space-between"
@@ -40,7 +40,7 @@ function AboutMe() {
           <>
             <Heading size="lg" m="30px">
               I am Harsh Shukla <br />
-              <span style={{ color: "teal" }}>FULL STACK WEB DEVELOPER</span>
+              <span style={{ color: "blue" }}>FULL STACK WEB DEVELOPER</span>
             </Heading>
           </>
           <div
@@ -51,13 +51,8 @@ function AboutMe() {
               )
             }
           >
-            <a
-              id="resume-link-2"
-              className="nav-link resume"
-              href={Resume}
-              download
-            >
-              <Button className="margin-class" colorScheme="red">
+            <a id="resume-link-2" className="resume" href={Resume} download>
+              <Button className="margin-class" colorScheme="blue">
                 <DownloadIcon /> Resume
               </Button>
             </a>
@@ -86,7 +81,12 @@ function AboutMe() {
         <Box className="education">
           {width < 700 ? (
             <Box>
-              <Card className="education-card" bg="AppWorkspace" m="10px 0px">
+              <Card
+                className="education-card"
+                bg="AppWorkspace"
+                m="10px 0px"
+                cursor={"pointer"}
+              >
                 <Heading size="sm">
                   Full stack Web Development(Full Time)
                 </Heading>
@@ -95,7 +95,11 @@ function AboutMe() {
                   <i className="fa fa-calendar"></i> August 2022 - October 2023
                 </Box>
               </Card>
-              <Card className="education-card" bg="AppWorkspace">
+              <Card
+                className="education-card"
+                bg="AppWorkspace"
+                cursor={"pointer"}
+              >
                 <Heading size="sm">Bsc in Computer Science</Heading>
                 <p>Awadesh Pratap Singh University, Rewa</p>
                 <Box>

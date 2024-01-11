@@ -9,7 +9,7 @@ function Contact() {
       <div>
         <div className="heading">
           <Heading textAlign={"left"}>Contact</Heading>
-          <div style={{ borderBottom: "5px solid red", width: "10%" }}></div>
+          <div style={{ borderBottom: "5px solid blue", width: "10%" }}></div>
         </div>
         <div
           data-aos="zoom-in-down"

@@ -24,7 +24,6 @@ function App() {
       <Skills />
       <Github />
       <Project />
-      <div style={{ borderBottom: "2px solid red", margin: "10px" }}></div>
       <Contact />
     </div>
   );

@@ -10,6 +10,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  margin: 10px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -26,8 +27,4 @@
 
 .live:hover {
   text-decoration: underline;
-}
-
-.project-image {
-  margin: 30px;
 }

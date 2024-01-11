@@ -13,7 +13,7 @@ function Skills() {
     <section id="skills">
       <div>
         <Heading textAlign={"left"}>Skills</Heading>
-        <div style={{ borderBottom: "5px solid red", width: "7%" }}></div>
+        <div style={{ borderBottom: "5px solid blue", width: "7%" }}></div>
         <div
           data-aos="fade-right"
           data-aos-duration="2000"
@@ -24,7 +24,7 @@ function Skills() {
           }}
         >
           <Heading>Technical Skills</Heading>
-          <div style={{ borderBottom: "5px solid red", width: "21%" }}></div>
+          <div style={{ borderBottom: "5px solid blue", width: "21%" }}></div>
           <SimpleGrid columns={[1, 2, 3]}>
             <VStack className="vstack" spacing={5}>
               <Heading size="lg">Languages</Heading>
@@ -224,7 +224,7 @@ function Skills() {
           }}
         >
           <Heading>Soft Skills</Heading>
-          <div style={{ borderBottom: "5px solid red", width: "15%" }}></div>
+          <div style={{ borderBottom: "5px solid blue", width: "15%" }}></div>
           <Box
             boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"
             borderRadius="10px"

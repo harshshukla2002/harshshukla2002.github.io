@@ -21,7 +21,7 @@ function Project() {
       <div>
         <div className="heading">
           <Heading textAlign={"left"}>Projects</Heading>
-          <div style={{ borderBottom: "5px solid red", width: "10%" }}></div>
+          <div style={{ borderBottom: "5px solid blue", width: "10%" }}></div>
         </div>
         <div className="project-wrapper">
           <div data-aos="zoom-out" data-aos-duration="2000">
@@ -30,11 +30,13 @@ function Project() {
               direction={["column"]}
               alignItems="center"
               margin={"10px"}
+              boxShadow={"rgba(0, 0, 0, 0.1) 0px 4px 12px"}
+              borderRadius={"10px"}
             >
               <div className="project-image">
                 <Image src="https://i.postimg.cc/zDHCmG7r/Chargeebee-clone.png" />
               </div>
-              <div>
+              <div style={{ padding: "10px" }}>
                 <Heading className="project-title" m="20px 10px">
                   ChargeeBee Clone
                 </Heading>
@@ -84,11 +86,13 @@ function Project() {
             direction={["column"]}
             alignItems="center"
             margin={"10px"}
+            boxShadow={"rgba(0, 0, 0, 0.1) 0px 4px 12px"}
+            borderRadius={"10px"}
           >
             <div className="project-image">
               <Image src="https://i.postimg.cc/VLFYGX3H/tripadvisor-clone.png" />
             </div>
-            <div>
+            <div style={{ padding: "10px" }}>
               <Heading className="project-title" m="20px 10px">
                 TripAdvisor Clone
               </Heading>
@@ -138,11 +142,13 @@ function Project() {
             direction={["column"]}
             alignItems="center"
             margin={"10px"}
+            boxShadow={"rgba(0, 0, 0, 0.1) 0px 4px 12px"}
+            borderRadius={"10px"}
           >
             <div className="project-image">
               <Image src="https://user-images.githubusercontent.com/112845916/221496830-378aef53-138f-41ae-bf32-152d0ab1badf.png" />
             </div>
-            <div>
+            <div style={{ padding: "10px" }}>
               <Heading className="project-title" m="20px 10px">
                 Snapdeal Clone
               </Heading>
@@ -194,11 +200,13 @@ function Project() {
             direction={["column"]}
             alignItems="center"
             margin={"10px"}
+            boxShadow={"rgba(0, 0, 0, 0.1) 0px 4px 12px"}
+            borderRadius={"10px"}
           >
             <div className="project-image">
               <Image src="https://i.postimg.cc/7L5gFvYt/Screenshot-2023-03-24-200537.png" />
             </div>
-            <div style={{ width: "70%" }}>
+            <div style={{ padding: "10px" }}>
               <Heading className="project-title" m="20px 10px">
                 Weather Website
               </Heading>
@@ -246,11 +254,13 @@ function Project() {
             direction={["column"]}
             alignItems="center"
             margin={"10px"}
+            boxShadow={"rgba(0, 0, 0, 0.1) 0px 4px 12px"}
+            borderRadius={"10px"}
           >
             <div className="project-image">
               <Image src="https://i.postimg.cc/G2Rz80P6/Screenshot-2023-05-21-125648.png" />
             </div>
-            <div style={{ width: "70%" }}>
+            <div style={{ padding: "10px" }}>
               <Heading className="project-title" m="20px 10px">
                 Movie Website
               </Heading>
@@ -299,11 +309,13 @@ function Project() {
             direction={["column"]}
             alignItems="center"
             margin={"10px"}
+            boxShadow={"rgba(0, 0, 0, 0.1) 0px 4px 12px"}
+            borderRadius={"10px"}
           >
             <div className="project-image">
               <Image src="https://i.postimg.cc/wvXg80xB/Screenshot-2023-06-23-221450.png" />
             </div>
-            <div>
+            <div style={{ padding: "10px" }}>
               <Heading className="project-title" m="20px 10px">
                 Pomodoro Tracker Clone
               </Heading>
@@ -357,11 +369,13 @@ function Project() {
             direction={["column"]}
             alignItems="center"
             margin={"10px"}
+            boxShadow={"rgba(0, 0, 0, 0.1) 0px 4px 12px"}
+            borderRadius={"10px"}
           >
             <div className="project-image">
               <Image src="https://camo.githubusercontent.com/27f34a754c42236f63ddfb1f6ba1dc5165e2e08b66fe89a35c0ad9209c448135/68747470733a2f2f692e706f7374696d672e63632f534b777a513678432f53637265656e73686f742d323032332d30382d31372d3039353034352e706e67" />
             </div>
-            <div style={{ width: "70%" }}>
+            <div style={{ padding: "10px" }}>
               <Heading className="project-title" m="20px 10px">
                 Gleams Website
               </Heading>
@@ -395,7 +409,11 @@ function Project() {
                 <span>|</span>
                 <div
                   className="live project-deployed-link"
-                  onClick={() => window.open("https://glems-eyy4alzt7-harshshukla2002.vercel.app/")}
+                  onClick={() =>
+                    window.open(
+                      "https://glems-eyy4alzt7-harshshukla2002.vercel.app/"
+                    )
+                  }
                 >
                   <ExternalLinkIcon /> Live
                 </div>

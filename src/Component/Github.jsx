@@ -19,7 +19,7 @@ function Github() {
     <div className="github-section" id="github">
       <div className="heading">
         <Heading textAlign={"left"}>Github</Heading>
-        <div style={{ borderBottom: "5px solid red", width: "10%" }}></div>
+        <div style={{ borderBottom: "5px solid blue", width: "10%" }}></div>
       </div>
       <SimpleGrid columns={[1, 2]} gap="20px" p="30px">
         <img

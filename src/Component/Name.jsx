@@ -36,11 +36,11 @@ function NameSection() {
               justifyContent="space-between"
               alignItems="center"
             >
-              <div style={{ width: "70%" }}>
+              <div style={{ width: width < 900 ? "70%" : "90%" }}>
                 <Heading size="lg">
                   <Stack direction={["column", "row"]}>
                     <span>My Name is</span>
-                    <span id="user-detail-name" style={{ color: "red" }}>
+                    <span id="user-detail-name" style={{ color: "blue" }}>
                       Harsh Shukla
                     </span>
                   </Stack>
@@ -49,7 +49,7 @@ function NameSection() {
                 <Heading>
                   <Stack direction={["column", "row"]}>
                     <span> I AM </span>
-                    <span style={{ color: "red" }}>
+                    <span style={{ color: "blue" }}>
                       <Typewriter
                         options={{
                           autoStart: true,
@@ -69,21 +69,24 @@ function NameSection() {
               <div
                 style={{ width: width < 900 ? "80%" : "25%", margin: "20px" }}
               >
-                <div className="container">
-                  <div className="image-circle">
+                {width < 900 ? (
+                  ""
+                ) : (
+                  <div className="container">
                     <img
                       className="home-img"
-                      src="https://i.postimg.cc/RCjYtjsy/Untitled-design.png"
+                      src="https://i.postimg.cc/nLK5KBpH/Profile-Image-removebg-preview.png"
                       alt="Harsh Shukla"
+                      clipPath="url(#user-image)"
                     />
                   </div>
-                </div>
+                )}
               </div>
             </Flex>
             <br />
             <br />
             <div>
-              <h3 align="center" style={{ fontSize: "20px", color: "teal" }}>
+              <h3 align="center" style={{ fontSize: "23px", color: "blue" }}>
                 A full-stack web developer with more than 2000 hours of
                 building, maintaining, and deploying single-page/e-commerce
                 applications and specialized in Node, React, Express, and

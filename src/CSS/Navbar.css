@@ -5,7 +5,7 @@
   margin: auto;
   align-items: center;
   font-size: 20px;
-  color: #00b4d8;
+  color: blue;
   background: white;
   overflow: hidden;
   position: fixed;
@@ -27,7 +27,7 @@
 }
 
 .nav-link:hover {
-  border-bottom: 2px solid skyblue;
+  border-bottom: 2px solid blue;
 }
 
 .margin-class {

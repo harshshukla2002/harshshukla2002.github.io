@@ -90,7 +90,7 @@ function NavBar() {
                       Contact
                     </a>
                     <a
-                      className="nav-link resume"
+                      className="resume"
                       id="resume-button-1"
                       href={Resume}
                       onClick={() =>
@@ -131,7 +131,7 @@ function NavBar() {
             </NavHashLink>
             s
             <a
-              className="nav-link resume"
+              className="resume"
               href={Resume}
               id="resume-button-1"
               onClick={() =>
