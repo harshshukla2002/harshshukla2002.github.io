@@ -56,7 +56,7 @@ function NameSection() {
                           loop: true,
                           delay: 50,
                           strings: [
-                            "FULL STACK WEB DEVELOPER",
+                            "FULL STACK DEVELOPER",
                             "MERN Developer",
                             "React Developer",
                           ],
@@ -70,7 +70,12 @@ function NameSection() {
                 style={{ width: width < 900 ? "80%" : "25%", margin: "20px" }}
               >
                 {width < 900 ? (
-                  ""
+                  <img
+                    className="home-img"
+                    src="https://i.postimg.cc/nLK5KBpH/Profile-Image-removebg-preview.png"
+                    alt="Harsh Shukla"
+                    clipPath="url(#user-image)"
+                  />
                 ) : (
                   <div className="container">
                     <img
