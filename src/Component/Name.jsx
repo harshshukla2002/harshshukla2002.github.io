@@ -36,10 +36,15 @@ function NameSection() {
               justifyContent="space-between"
               alignItems="center"
             >
-              <div style={{ width: width < 900 ? "70%" : "90%" }}>
+              <div
+                style={{
+                  width: width < 900 ? "95%" : "80%",
+                  textAlign: "left",
+                }}
+              >
                 <Heading size="lg">
                   <Stack direction={["column", "row"]}>
-                    <span>My Name is</span>
+                    <p>My Name is</p>
                     <span id="user-detail-name" style={{ color: "blue" }}>
                       Harsh Shukla
                     </span>
@@ -48,7 +53,7 @@ function NameSection() {
                 <br />
                 <Heading>
                   <Stack direction={["column", "row"]}>
-                    <span> I AM </span>
+                    <p> I AM </p>
                     <span style={{ color: "blue" }}>
                       <Typewriter
                         options={{
