@@ -15,6 +15,11 @@ const Languages = [
       "https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png",
     title: "TypeScript",
   },
+  {
+    image:
+      "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-1024.png",
+    title: "Python",
+  },
 ];
 
 const FrontEnd = [
@@ -40,6 +45,11 @@ const FrontEnd = [
   {
     image: "https://avatars.githubusercontent.com/u/67109815?s=280&v=4",
     title: "Tailwind",
+  },
+  {
+    image:
+      "https://www.onu.ro/wp/wp-content/uploads/2020/03/react-native-logo-884x1024.png",
+    title: "React Native",
   },
 ];
 
