@@ -26,8 +26,12 @@
   text-decoration: underline;
 }
 
+.nav-link {
+  transition: ease-in 0.1s;
+}
+
 .nav-link:hover {
-  border-bottom: 2px solid blue;
+  border-bottom: 3px solid blue;
 }
 
 .margin-class {

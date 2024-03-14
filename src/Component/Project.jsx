@@ -1,6 +1,12 @@
 import { Flex, Heading, HStack, Image } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { FaGithubSquare, FaNodeJs, FaReact } from "react-icons/fa";
+import {
+  FaAngular,
+  FaBootstrap,
+  FaGithubSquare,
+  FaNodeJs,
+  FaReact,
+} from "react-icons/fa";
 import { MdJavascript, MdHtml, MdCss } from "react-icons/md";
 import {
   SiExpress,
@@ -125,6 +131,19 @@ const Projects = [
     live: "https://glems-eyy4alzt7-harshshukla2002.vercel.app/",
     github: "https://github.com/harshshukla2002/Glems-App",
   },
+  {
+    image: "https://i.postimg.cc/zDncQfMW/Screenshot-2024-03-14-105934.png",
+    title: "Recipe Book App",
+    desc: "Recipe Book is app for select recipe see ingredient, creating recipes, edit recipes and ingredient and also set recipes to shopping list.",
+    teck: [
+      <FaAngular size="30px" />,
+      <MdCss size="40px" />,
+      <SiTypescript size={"30px"} />,
+      <FaBootstrap size={"30px"} />,
+    ],
+    live: "https://recipe-book-app-rust.vercel.app/",
+    github: "https://github.com/harshshukla2002/Recipe-Book-App",
+  },
 ];
 
 function Project() {
@@ -147,6 +166,7 @@ function Project() {
                 alignItems="center"
                 margin={"10px"}
                 boxShadow={"rgba(0, 0, 0, 0.1) 0px 4px 12px"}
+                backgroundColor={"white"}
                 borderRadius={"10px"}
               >
                 <div className="project-image">

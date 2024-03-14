@@ -51,6 +51,11 @@ const FrontEnd = [
       "https://www.onu.ro/wp/wp-content/uploads/2020/03/react-native-logo-884x1024.png",
     title: "React Native",
   },
+  {
+    image:
+      "http://pluspng.com/img-png/angular-logo-png-angular-logo-transparent-png-pluspng-482x512.png",
+    title: "Angular",
+  },
 ];
 
 const Backend = [

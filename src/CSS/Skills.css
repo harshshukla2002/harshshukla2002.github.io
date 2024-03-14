@@ -32,4 +32,5 @@
 .skills-box {
   cursor: pointer;
   transition: all ease 1s;
+  background-color: white;
 }
