@@ -38,7 +38,7 @@ function NameSection() {
             >
               <div
                 style={{
-                  width: width < 900 ? "95%" : "80%",
+                  width: width < 900 ? "95%" : "60%",
                   textAlign: "left",
                 }}
               >
@@ -64,6 +64,7 @@ function NameSection() {
                             "FULL STACK DEVELOPER",
                             "MERN Developer",
                             "React Developer",
+                            "React Native Developer",
                           ],
                         }}
                       />
@@ -77,17 +78,19 @@ function NameSection() {
                 {width < 900 ? (
                   <img
                     className="home-img"
-                    src="https://i.postimg.cc/nLK5KBpH/Profile-Image-removebg-preview.png"
+                    src="https://i.postimg.cc/d1Wx28ZG/SQL-FOR-DATA-SCIENCE-ONE-STOP-SOLUTION-FOR-BEGINNERS.gif"
                     alt="Harsh Shukla"
                     clipPath="url(#user-image)"
+                    style={{ borderRadius: "10px" }}
                   />
                 ) : (
                   <div className="container">
                     <img
                       className="home-img"
-                      src="https://i.postimg.cc/nLK5KBpH/Profile-Image-removebg-preview.png"
+                      src="https://i.postimg.cc/gkTjj5MK/799e0d7779f6ea6c3a89885ff60c55af.gif"
                       alt="Harsh Shukla"
                       clipPath="url(#user-image)"
+                      style={{ borderRadius: "10px" }}
                     />
                   </div>
                 )}
@@ -95,15 +98,6 @@ function NameSection() {
             </Flex>
             <br />
             <br />
-            <div>
-              <h3 align="center" style={{ fontSize: "23px", color: "blue" }}>
-                A full-stack web developer with more than 2000 hours of
-                building, maintaining, and deploying single-page/e-commerce
-                applications and specialized in Node, React, Express, and
-                mongoDB. A passionate, diligent person who wants to learn
-                continuously.
-              </h3>
-            </div>
           </div>
         </motion.div>
       </section>

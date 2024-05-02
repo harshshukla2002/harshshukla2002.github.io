@@ -46,22 +46,6 @@ const Projects = [
     github: "https://github.com/harshshukla2002/TripAdvisorClone",
   },
   {
-    image:
-      "https://user-images.githubusercontent.com/112845916/221496830-378aef53-138f-41ae-bf32-152d0ab1badf.png",
-    title: "Snapdeal Clone",
-    desc: "Snapdeal is an Indian e-commerce company based out of New Delhi. Among the surrounding e-commerce platforms in India, Snapdeal has managed to carve its own niche with its impressive range of discounts and product categories",
-    teck: [
-      <FaReact size="30px" />,
-      <MdCss size="40px" />,
-      <Image
-        w="30px"
-        src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"
-      />,
-    ],
-    live: "https://subsequent-parcel-2806-mehulktik-gmailcom.vercel.app/",
-    github: "https://github.com/harshshukla2002/SnapDeal-Clone",
-  },
-  {
     image: "https://i.postimg.cc/7L5gFvYt/Screenshot-2023-03-24-200537.png",
     title: "Weather Website",
     desc: "A Website For Weather App, where you can check weather for any city.",

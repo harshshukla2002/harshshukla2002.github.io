@@ -2,13 +2,14 @@
   width: 80%;
   padding: 40px;
   margin: auto;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   font-size: 30px;
+  padding-top: 200px;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
   background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
 }
 
-.home-img {
+/* .home-img {
   border-radius: 50%;
-}
+} */

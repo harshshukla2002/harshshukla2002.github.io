@@ -35,7 +35,12 @@ function Contact() {
             </div>
 
             <div className="contact-item">
-              <a id="contact-github" href="https://github.com/harshshukla2002">
+              <a
+                id="contact-github"
+                href="https://github.com/harshshukla2002"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa fa-github-alt" aria-hidden="true"></i>{" "}
                 <span>harshshukla2002</span>
               </a>
@@ -44,6 +49,8 @@ function Contact() {
               <a
                 id="contact-linkedin"
                 href="https://www.linkedin.com/in/harsh-shukla12/"
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa fa-linkedin-square" aria-hidden="true"></i>{" "}
                 <span>harsh-shukla12</span>

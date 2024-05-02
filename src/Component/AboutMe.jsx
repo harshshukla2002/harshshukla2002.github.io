@@ -23,14 +23,15 @@ function AboutMe() {
   }, [width]);
 
   return (
-    <section>
+    <section id="about">
       <div
         data-aos="zoom-in"
         data-aos-duration="2000"
-        id="about"
         className="about section"
       >
-        <Heading textAlign={"left"}>About Me</Heading>
+        <Heading textAlign={"left"} paddingTop={"20"}>
+          About Me
+        </Heading>
         <div style={{ borderBottom: "5px solid blue", width: "15%" }}></div>
         <Flex
           direction={["column", "row"]}
@@ -58,23 +59,50 @@ function AboutMe() {
             </a>
           </div>
         </Flex>
-        <p
-          id="user-detail-intro"
-          style={{
-            width: "90%",
-            fontSize: "20px",
-            margin: "20px",
-            textAlign: "justify",
-          }}
+        <Flex
+          alignItems={"center"}
+          gap="10"
+          flexWrap={width < 900 ? "wrap" : "nowrap"}
         >
-          I am a full-stack web developer doing military-style coding and
-          learning MERN Stack at Masai School. I have done various group
-          projects as well as individual projects using HTML, CSS,
-          JavaScript,React, NodeJs,Express and MongoDB in my coding journey. I
-          also did my B.Sc. in Computer Science from Awadesh Pratap Singh
-          University. My interests are coding, reading, listening to music, and
-          exploring something new.
-        </p>
+          <div style={{ width: width < 900 ? "80%" : "25%", margin: "20px" }}>
+            {width < 900 ? (
+              <img
+                className="home-img"
+                src="https://i.postimg.cc/nLK5KBpH/Profile-Image-removebg-preview.png"
+                alt="Harsh Shukla"
+                clipPath="url(#user-image)"
+                style={{ borderRadius: "50%" }}
+              />
+            ) : (
+              <div className="container">
+                <img
+                  className="home-img"
+                  src="https://i.postimg.cc/nLK5KBpH/Profile-Image-removebg-preview.png"
+                  alt="Harsh Shukla"
+                  clipPath="url(#user-image)"
+                  style={{ borderRadius: "50%" }}
+                />
+              </div>
+            )}
+          </div>
+          <p
+            id="user-detail-intro"
+            style={{
+              width: "90%",
+              fontSize: "20px",
+              margin: "20px",
+              textAlign: "justify",
+            }}
+          >
+            I am a full-stack web developer doing military-style coding and
+            learning MERN Stack at Masai School. I have done various group
+            projects as well as individual projects using HTML, CSS,
+            JavaScript,React, NodeJs,Express and MongoDB in my coding journey. I
+            also did my B.Sc. in Computer Science from Awadesh Pratap Singh
+            University. My interests are coding, reading, listening to music,
+            and exploring something new.
+          </p>
+        </Flex>
         <Heading size="lg" m="30px">
           Education
         </Heading>
@@ -123,6 +151,38 @@ function AboutMe() {
                 <p>Awadesh Pratap Singh University, Rewa</p>
                 <Box>
                   <i className="fa fa-calendar"></i> July 2019 - July 2022
+                </Box>
+              </Card>
+            </Stack>
+          )}
+        </Box>
+
+        <Heading size="lg" m="30px">
+          Experience
+        </Heading>
+        <Box className="education">
+          {width < 700 ? (
+            <Box>
+              <Card
+                className="education-card"
+                bg="AppWorkspace"
+                m="10px 0px"
+                cursor={"pointer"}
+              >
+                <Heading size="sm">SDE Intern</Heading>
+                <p>Masai School, Bengaluru</p>
+                <Box>
+                  <i className="fa fa-calendar"></i> November 2023 - May 2024
+                </Box>
+              </Card>
+            </Box>
+          ) : (
+            <Stack direction={"row"} gap="20">
+              <Card className="education-card" bg="AppWorkspace">
+                <Heading size="sm">SDE Intern</Heading>
+                <p>Masai School, Bengaluru</p>
+                <Box>
+                  <i className="fa fa-calendar"></i> November 2023 - May 2024
                 </Box>
               </Card>
             </Stack>

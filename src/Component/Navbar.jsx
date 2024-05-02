@@ -1,3 +1,4 @@
+import React, { useEffect, useRef, useState } from "react";
 import {
   Button,
   Drawer,
@@ -11,7 +12,6 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
-import { useEffect, useRef, useState } from "react";
 import { NavHashLink } from "react-router-hash-link";
 import Resume from "../PDF/Harsh-Shukla-Resume.pdf";
 import "../CSS/Navbar.css";
@@ -38,18 +38,18 @@ function NavBar() {
       window.removeEventListener("resize", DetectWindowSize);
     };
   }, [width]);
+
   return (
     <div id="nav-menu" className="navbar">
       <div
         className="name-logo"
         style={{ fontSize: "25px", fontWeight: "bold" }}
       >
-        {" "}
         <Heading className="gradient-font">Harsh</Heading>
       </div>
       <div className="space"></div>
       <HStack spacing={50}>
-        {width < 920 ? (
+        {width < 1050 ? (
           <>
             <Button
               ref={btnRef}
@@ -71,24 +71,34 @@ function NavBar() {
                 <DrawerCloseButton />
                 <DrawerBody>
                   <SimpleGrid columns={[2, 3, 6]} p="10px" textAlign="center">
-                    <a className="nav-link home" href="#home" smooth>
+                    <NavHashLink className="nav-link home" to="#home" smooth>
                       Home
-                    </a>
-                    <a className="nav-link about" href="#about" smooth>
+                    </NavHashLink>
+                    <NavHashLink className="nav-link about" to="#about" smooth>
                       About
-                    </a>
-                    <a className="nav-link skills" href="#skills" smooth>
+                    </NavHashLink>
+                    <NavHashLink
+                      className="nav-link skills"
+                      to="#skills"
+                      smooth
+                    >
                       Skills
-                    </a>
-                    <a className="nav-link github" href="#github" smooth>
-                      Github
-                    </a>
-                    <a className="nav-link projects" href="#projects" smooth>
+                    </NavHashLink>
+
+                    <NavHashLink
+                      className="nav-link projects"
+                      to="#projects"
+                      smooth
+                    >
                       Project
-                    </a>
-                    <a className="nav-link contact" href="#contact" smooth>
+                    </NavHashLink>
+                    <NavHashLink
+                      className="nav-link contact"
+                      to="#contact"
+                      smooth
+                    >
                       Contact
-                    </a>
+                    </NavHashLink>
                     <a
                       className="resume"
                       id="resume-button-1"
@@ -120,16 +130,13 @@ function NavBar() {
             <NavHashLink className="nav-link skills" to="#skills" smooth>
               Skills
             </NavHashLink>
-            <NavHashLink className="nav-link github" to="#github" smooth>
-              Github
-            </NavHashLink>
+
             <NavHashLink className="nav-link projects" to="#projects" smooth>
               Project
             </NavHashLink>
             <NavHashLink className="nav-link contact" to="#contact" smooth>
               Contact
             </NavHashLink>
-            s
             <a
               className="resume"
               href={Resume}
