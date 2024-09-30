@@ -166,26 +166,59 @@ function AboutMe() {
         <Box className="education">
           {width < 700 ? (
             <Box>
-              <Card
-                className="education-card"
-                bg="AppWorkspace"
-                m="10px 0px"
-                cursor={"pointer"}
-              >
+             <Card className="education-card" bg="AppWorkspace">
+                <Heading size="sm">Mobile Application Developer</Heading>
+                <p>Anugraha Exceed Incorporated, Bengaluru</p>
+                <Box>
+                  <i className="fa fa-calendar"></i> June 2024 - September 2024
+                </Box>
+                <Box mt={2}>
+                  <p>• Developed multiple aviation-related forms to streamline
+                  data entry for airline pilot training.</p>
+                  <p>• Created and implemented a calendar event page for
+                  scheduling pilot training sessions.</p>
+                </Box>
+              </Card>
+              <Card className="education-card" bg="AppWorkspace" mt={5}>
                 <Heading size="sm">SDE Intern</Heading>
                 <p>Masai School, Bengaluru</p>
                 <Box>
                   <i className="fa fa-calendar"></i> November 2023 - May 2024
+                </Box>
+                <Box mt={2}>
+                  <p>• Developed and maintained the login and user profile
+                  sections of the Trifit mobile application using React Native.</p>
+                  <p>• Utilized state management libraries (e.g., Redux) to manage
+                  user state effectively.</p>
                 </Box>
               </Card>
             </Box>
           ) : (
             <Stack direction={"row"} gap="20">
               <Card className="education-card" bg="AppWorkspace">
+                <Heading size="sm">Mobile Application Developer</Heading>
+                <p>Anugraha Exceed Incorporated, Bengaluru</p>
+                <Box>
+                  <i className="fa fa-calendar"></i> June 2024 - September 2024
+                </Box>
+                <Box mt={2}>
+                  <p>• Developed multiple aviation-related forms to streamline
+                  data entry for airline pilot training.</p>
+                  <p>• Created and implemented a calendar event page for
+                  scheduling pilot training sessions.</p>
+                </Box>
+              </Card>
+              <Card className="education-card" bg="AppWorkspace">
                 <Heading size="sm">SDE Intern</Heading>
                 <p>Masai School, Bengaluru</p>
                 <Box>
                   <i className="fa fa-calendar"></i> November 2023 - May 2024
+                </Box>
+                <Box mt={2}>
+                  <p>• Developed and maintained the login and user profile
+                  sections of the Trifit mobile application using React Native.</p>
+                  <p>• Utilized state management libraries (e.g., Redux) to manage
+                  user state effectively.</p>
                 </Box>
               </Card>
             </Stack>
