@@ -4,8 +4,10 @@ import {
   FaAngular,
   FaBootstrap,
   FaGithubSquare,
+  FaJsSquare,
   FaNodeJs,
   FaReact,
+  FaStripe,
 } from "react-icons/fa";
 import { MdJavascript, MdHtml, MdCss } from "react-icons/md";
 import {
@@ -127,6 +129,23 @@ const Projects = [
     ],
     live: "https://recipe-book-app-rust.vercel.app/",
     github: "https://github.com/harshshukla2002/Recipe-Book-App",
+  },
+  {
+    image: "https://i.postimg.cc/449KH1Vt/Screenshot-2024-12-09-133612.png",
+    title: "Food Delivery App",
+    desc: "A food delivery platform where users can order food, make secure payments, and track orders, while admins manage the menu and order statuses.",
+    teck: [
+      <FaReact size="30px" />,
+      <MdCss size="40px" />,
+      <FaJsSquare size={"30px"} />,
+      <FaNodeJs size={"30px"} />,
+      <SiExpress size={"30px"} />,
+      <SiMongodb size={"30px"} />,
+      <FaStripe size={"30px"} />,
+      <SiJsonwebtokens size={"30px"} />,
+    ],
+    live: "https://deloffood.netlify.app/",
+    github: "https://github.com/harshshukla2002/Food-Delivery",
   },
 ];
 
