@@ -94,16 +94,15 @@ function AboutMe() {
               textAlign: "justify",
             }}
           >
-            As a full-stack web developer with a background in military-style
-            coding and a passion for learning, I've honed my skills at Masai
-            School, specializing in the MERN Stack. I bring hands-on experience
-            from diverse group projects and solo endeavors, leveraging HTML,
-            CSS, JavaScript, React, Node.js, Express, and MongoDB to craft
-            dynamic web solutions. Holding a B.Sc. in Computer Science from
-            Awadesh Pratap Singh University, I thrive on challenges and
-            constantly seek opportunities to expand my knowledge base. Beyond
-            coding, I find joy in reading, listening to music, and embarking on
-            journeys of discovery.
+            Experienced React Native and MERN Stack Developer with over a year
+            of expertise in building dynamic, user-friendly web and mobile
+            applications. Proficient in React.js, React Native, Node.js,
+            Express.js, and MongoDB, with a strong focus on frontend
+            development, state management, and delivering scalable solutions.
+            Passionate about leveraging technology to solve real-world problems
+            and continuously enhance user experiences. Skilled in collaborating
+            with cross-functional teams to deliver high-quality, impactful
+            projects.
           </p>
         </Flex>
         <Heading size="lg" m="30px">
