@@ -105,7 +105,7 @@ function NavBar() {
                       href={Resume}
                       onClick={() =>
                         window.open(
-                          "https://drive.google.com/file/d/1WP6tCbB1GGP3gIM-g-oWMcDil0duAUsY/view?usp=drive_link"
+                          "https://drive.google.com/file/d/1Ex4jvjVNjB4Lnxo3eTj8g_-np3AdMNGQ/view?usp=sharing"
                         )
                       }
                       download="Harsh-Shukla-Resume"
@@ -143,7 +143,7 @@ function NavBar() {
               id="resume-button-1"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1WP6tCbB1GGP3gIM-g-oWMcDil0duAUsY/view?usp=drive_link"
+                  "https://drive.google.com/file/d/1Ex4jvjVNjB4Lnxo3eTj8g_-np3AdMNGQ/view?usp=sharing"
                 )
               }
               download="Harsh-Shukla-Resume"

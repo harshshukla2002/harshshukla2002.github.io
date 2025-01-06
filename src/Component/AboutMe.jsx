@@ -48,7 +48,7 @@ function AboutMe() {
             id="resume-button-2"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1WP6tCbB1GGP3gIM-g-oWMcDil0duAUsY/view?usp=drive_link"
+                "https://drive.google.com/file/d/1Ex4jvjVNjB4Lnxo3eTj8g_-np3AdMNGQ/view?usp=sharing"
               )
             }
           >
