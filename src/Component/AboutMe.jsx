@@ -94,15 +94,11 @@ function AboutMe() {
               textAlign: "justify",
             }}
           >
-            Experienced React Native and MERN Stack Developer with over a year
-            of expertise in building dynamic, user-friendly web and mobile
-            applications. Proficient in React.js, React Native, Node.js,
-            Express.js, and MongoDB, with a strong focus on frontend
-            development, state management, and delivering scalable solutions.
-            Passionate about leveraging technology to solve real-world problems
-            and continuously enhance user experiences. Skilled in collaborating
-            with cross-functional teams to deliver high-quality, impactful
-            projects.
+            A dedicated Full Stack Developer with 10 months of experience in
+            React.js, React Native, Node.js, and MongoDB. Skilled in creating
+            responsive UIs, scalable APIs, and cross-platform applications.
+            Passionate about delivering innovative, user-focused solutions and
+            contributing to impactful projects.
           </p>
         </Flex>
         <Heading size="lg" m="30px">
