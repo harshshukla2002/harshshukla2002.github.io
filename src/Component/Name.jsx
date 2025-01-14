@@ -52,7 +52,7 @@ function NameSection() {
                 </Heading>
                 <br />
                 <Heading>
-                  <Stack direction={["column", "row"]}>
+                  {/* <Stack direction={["column", "row"]}>
                     <p> I AM </p>
                     <span style={{ color: "blue" }}>
                       <Typewriter
@@ -69,7 +69,19 @@ function NameSection() {
                         }}
                       />
                     </span>
-                  </Stack>
+                  </Stack> */}
+                  <div class="card">
+                    <div class="loader">
+                      <p>I Am</p>
+                      <div class="words">
+                        <span class="word">MERN Stack Developer</span>
+                        <span class="word">MEAN Stack Developer</span>
+                        <span class="word">React Developer</span>
+                        <span class="word">React Native Developer</span>
+                        <span class="word">MERN Stack Developer</span>
+                      </div>
+                    </div>
+                  </div>
                 </Heading>
               </div>
               <div
@@ -78,7 +90,7 @@ function NameSection() {
                 {width < 900 ? (
                   <img
                     className="home-img"
-                    src="https://i.postimg.cc/d1Wx28ZG/SQL-FOR-DATA-SCIENCE-ONE-STOP-SOLUTION-FOR-BEGINNERS.gif"
+                    src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFpN3RvMmZ2emQxeWVvMW9tdmhnbXV4NHhjcGpveng0ODQ5bmJqaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBOOXxSJfG8kqMxT11/giphy.gif"
                     alt="Harsh Shukla"
                     clipPath="url(#user-image)"
                     style={{ borderRadius: "10px" }}
@@ -87,7 +99,7 @@ function NameSection() {
                   <div className="container">
                     <img
                       className="home-img"
-                      src="https://i.postimg.cc/gkTjj5MK/799e0d7779f6ea6c3a89885ff60c55af.gif"
+                      src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFpN3RvMmZ2emQxeWVvMW9tdmhnbXV4NHhjcGpveng0ODQ5bmJqaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBOOXxSJfG8kqMxT11/giphy.gif"
                       alt="Harsh Shukla"
                       clipPath="url(#user-image)"
                       style={{ borderRadius: "10px" }}

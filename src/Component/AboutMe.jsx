@@ -1,4 +1,4 @@
-import { Box, Card, Heading, Stack, Button, Flex } from "@chakra-ui/react";
+import { Box, Card, Heading, Stack, Flex } from "@chakra-ui/react";
 import Resume from "../PDF/Harsh-Shukla-Resume.pdf";
 import { DownloadIcon } from "@chakra-ui/icons";
 import { useEffect, useState } from "react";
@@ -53,9 +53,10 @@ function AboutMe() {
             }
           >
             <a id="resume-link-2" className="resume" href={Resume} download>
-              <Button className="margin-class" colorScheme="blue">
-                <DownloadIcon /> Resume
-              </Button>
+              <button class="button">
+                <DownloadIcon style={{ marginTop: "5px" }} />
+                <div class="text">Resume</div>
+              </button>
             </a>
           </div>
         </Flex>
