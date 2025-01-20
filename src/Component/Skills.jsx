@@ -15,11 +15,6 @@ const Languages = [
       "https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png",
     title: "TypeScript",
   },
-  {
-    image:
-      "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-1024.png",
-    title: "Python",
-  },
 ];
 
 const FrontEnd = [
