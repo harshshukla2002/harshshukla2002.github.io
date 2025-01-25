@@ -12,14 +12,15 @@ const Languages = [
   },
   {
     image:
-      "https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png",
+      "https://static-00.iconduck.com/assets.00/typescript-icon-icon-2048x2048-2rhh1z66.png",
     title: "TypeScript",
   },
 ];
 
 const FrontEnd = [
   {
-    image: "https://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png",
+    image:
+      "https://cdn-icons-png.freepik.com/256/4943/4943029.png?semt=ais_hybrid",
     title: "HTML",
   },
   {
@@ -34,7 +35,7 @@ const FrontEnd = [
   },
   {
     image:
-      "https://www.taniarascia.com/static/987371fab3463c3496c5a6447b32553f/56e34/redux.png",
+      "https://static-00.iconduck.com/assets.00/redux-icon-2048x1945-ahvhunxp.png",
     title: "Redux",
   },
   {
@@ -51,6 +52,10 @@ const FrontEnd = [
       "http://pluspng.com/img-png/angular-logo-png-angular-logo-transparent-png-pluspng-482x512.png",
     title: "Angular",
   },
+  {
+    image: "https://cdn.worldvectorlogo.com/logos/apollo-graphql-compact.svg",
+    title: "Apollo GraphQl",
+  },
 ];
 
 const Backend = [
@@ -60,13 +65,17 @@ const Backend = [
     title: "NodeJS",
   },
   {
-    image:
-      "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
+    image: "https://img.icons8.com/color/512/express-js.png",
     title: "Express",
   },
   {
     image: "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
     title: "NextJS",
+  },
+  {
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.svg.png",
+    title: "GraphQl",
   },
 ];
 
@@ -202,7 +211,7 @@ function Skills() {
               >
                 <Flex className="skills-card">
                   <img
-                    src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"
+                    src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
                     alt=""
                     className="skills-card-img"
                   />

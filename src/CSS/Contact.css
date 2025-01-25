@@ -1,16 +1,19 @@
 #contact {
-    padding: 20px;
-    text-align: left;
-    width: 95%;
-    margin: auto;
-    margin-top: 40px;
+  padding: 20px;
+  text-align: left;
+  width: 95%;
+  margin: auto;
+  margin-top: 40px;
 }
 
-.contact-item{
-    margin: 10px;
+.contact-item {
+  margin: 10px;
+  font-size: 19px;
 }
 
-.contact-card{
-    display: flex;
-    flex-direction: row;
+.contact-card {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  gap: 20px;
 }
