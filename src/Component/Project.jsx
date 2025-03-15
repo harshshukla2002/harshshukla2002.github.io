@@ -173,14 +173,17 @@ function Project() {
                 borderRadius={"10px"}
                 style={{
                   border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
                 }}
               >
                 <div className="project-image">
                   <Image
                     src={project.image}
                     style={{
-                      borderTopRightRadius: "10px",
-                      borderTopLeftRadius: "10px",
+                      borderTopRightRadius: "25px",
+                      borderTopLeftRadius: "25px",
+                      paddingBlock: "10px",
                     }}
                   />
                 </div>

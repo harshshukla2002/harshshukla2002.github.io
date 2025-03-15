@@ -117,6 +117,8 @@ function AboutMe() {
                 cursor={"pointer"}
                 style={{
                   border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
                 }}
               >
                 <Heading size="sm">
@@ -133,6 +135,8 @@ function AboutMe() {
                 cursor={"pointer"}
                 style={{
                   border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
                 }}
               >
                 <Heading size="sm">Bsc in Computer Science</Heading>
@@ -149,6 +153,8 @@ function AboutMe() {
                 // bg="AppWorkspace"
                 style={{
                   border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
                 }}
               >
                 <Heading size="sm">
@@ -164,6 +170,8 @@ function AboutMe() {
                 // bg="AppWorkspace"
                 style={{
                   border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
                 }}
               >
                 <Heading size="sm">Bsc in Computer Science</Heading>
@@ -187,6 +195,8 @@ function AboutMe() {
                 bg="AppWorkspace"
                 style={{
                   border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
                 }}
               >
                 <Heading size="sm">Mobile Application Developer</Heading>
@@ -211,6 +221,8 @@ function AboutMe() {
                 mt={5}
                 style={{
                   border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
                 }}
               >
                 <Heading size="sm">SDE Intern</Heading>
@@ -238,6 +250,8 @@ function AboutMe() {
                 bg="AppWorkspace"
                 style={{
                   border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
                 }}
               >
                 <Heading size="sm">Mobile Application Developer</Heading>
@@ -261,6 +275,8 @@ function AboutMe() {
                 bg="AppWorkspace"
                 style={{
                   border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
                 }}
               >
                 <Heading size="sm">SDE Intern</Heading>

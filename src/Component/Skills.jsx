@@ -153,7 +153,11 @@ function Skills() {
             <VStack className="vstack" spacing={5}>
               <Heading size="lg">Languages</Heading>
               <Box
-                style={{ border: "2px solid gray" }}
+                style={{
+                  border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
+                }}
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
@@ -178,7 +182,11 @@ function Skills() {
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
-                style={{ border: "2px solid gray" }}
+                style={{
+                  border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
+                }}
               >
                 <SimpleGrid columns={[width > 1050 ? 2 : 1]}>
                   {FrontEnd.map((elem) => {
@@ -199,7 +207,11 @@ function Skills() {
             <VStack className="vstack" spacing={5}>
               <Heading size="lg">Back-End</Heading>
               <Box
-                style={{ border: "2px solid gray" }}
+                style={{
+                  border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
+                }}
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
@@ -221,7 +233,11 @@ function Skills() {
             <VStack spacing={5}>
               <Heading size="lg">Database</Heading>
               <Box
-                style={{ border: "2px solid gray" }}
+                style={{
+                  border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
+                }}
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
@@ -243,7 +259,11 @@ function Skills() {
             <VStack className="vstack" spacing={5}>
               <Heading size="lg">Testing</Heading>
               <Box
-                style={{ border: "2px solid gray" }}
+                style={{
+                  border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
+                }}
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
@@ -265,7 +285,11 @@ function Skills() {
             <VStack className="vstack" spacing={5}>
               <Heading size="lg">Other</Heading>
               <Box
-                style={{ border: "2px solid gray" }}
+                style={{
+                  border: "2px solid gray",
+                  borderBottomWidth: "4px",
+                  borderRadius: "25px",
+                }}
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
@@ -298,7 +322,11 @@ function Skills() {
           <Heading>Soft Skills</Heading>
           <div style={{ borderBottom: "5px solid blue", width: "15%" }}></div>
           <Box
-            style={{ border: "2px solid gray" }}
+            style={{
+              border: "2px solid gray",
+              borderBottomWidth: "4px",
+              borderRadius: "25px",
+            }}
             borderRadius="10px"
             p="10px"
             className="skills-box"
