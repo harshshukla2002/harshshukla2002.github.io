@@ -168,12 +168,21 @@ function Project() {
                 direction={["column"]}
                 alignItems="center"
                 margin={"10px"}
-                boxShadow={"rgba(0, 0, 0, 0.1) 0px 4px 12px"}
+                // boxShadow={"rgba(0, 0, 0, 0.1) 0px 4px 12px"}
                 backgroundColor={"white"}
                 borderRadius={"10px"}
+                style={{
+                  border: "2px solid gray",
+                }}
               >
                 <div className="project-image">
-                  <Image src={project.image} />
+                  <Image
+                    src={project.image}
+                    style={{
+                      borderTopRightRadius: "10px",
+                      borderTopLeftRadius: "10px",
+                    }}
+                  />
                 </div>
                 <div style={{ padding: "10px" }}>
                   <Heading className="project-title" m="20px 10px">

@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+// current comment for cursive
+
 function AboutMe() {
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -95,7 +97,7 @@ function AboutMe() {
               textAlign: "justify",
             }}
           >
-            A dedicated Full Stack Developer with 10 months of experience in
+            A dedicated Full Stack Developer with 1 years of experience in
             React.js, React Native, Node.js, and MongoDB. Skilled in creating
             responsive UIs, scalable APIs, and cross-platform applications.
             Passionate about delivering innovative, user-focused solutions and
@@ -110,9 +112,12 @@ function AboutMe() {
             <Box>
               <Card
                 className="education-card"
-                bg="AppWorkspace"
+                // bg="AppWorkspace"
                 m="10px 0px"
                 cursor={"pointer"}
+                style={{
+                  border: "2px solid gray",
+                }}
               >
                 <Heading size="sm">
                   Full stack Web Development(Full Time)
@@ -124,8 +129,11 @@ function AboutMe() {
               </Card>
               <Card
                 className="education-card"
-                bg="AppWorkspace"
+                // bg="AppWorkspace"
                 cursor={"pointer"}
+                style={{
+                  border: "2px solid gray",
+                }}
               >
                 <Heading size="sm">Bsc in Computer Science</Heading>
                 <p>Awadesh Pratap Singh University, Rewa</p>
@@ -136,7 +144,13 @@ function AboutMe() {
             </Box>
           ) : (
             <Stack direction={"row"} gap="20">
-              <Card className="education-card" bg="AppWorkspace">
+              <Card
+                className="education-card"
+                // bg="AppWorkspace"
+                style={{
+                  border: "2px solid gray",
+                }}
+              >
                 <Heading size="sm">
                   Full stack Web Development(Full Time)
                 </Heading>
@@ -145,7 +159,13 @@ function AboutMe() {
                   <i className="fa fa-calendar"></i> August 2022 - October 2023
                 </Box>
               </Card>
-              <Card className="education-card" bg="AppWorkspace">
+              <Card
+                className="education-card"
+                // bg="AppWorkspace"
+                style={{
+                  border: "2px solid gray",
+                }}
+              >
                 <Heading size="sm">Bsc in Computer Science</Heading>
                 <p>Awadesh Pratap Singh University, Rewa</p>
                 <Box>
@@ -162,11 +182,17 @@ function AboutMe() {
         <Box className="education">
           {width < 700 ? (
             <Box>
-              <Card className="education-card" bg="AppWorkspace">
+              <Card
+                className="education-card"
+                bg="AppWorkspace"
+                style={{
+                  border: "2px solid gray",
+                }}
+              >
                 <Heading size="sm">Mobile Application Developer</Heading>
                 <p>Anugraha Exceed Incorporated, Bengaluru</p>
                 <Box>
-                  <i className="fa fa-calendar"></i> June 2024 - September 2024
+                  <i className="fa fa-calendar"></i> June 2024 - November 2024
                 </Box>
                 <Box mt={2}>
                   <p>
@@ -179,7 +205,14 @@ function AboutMe() {
                   </p>
                 </Box>
               </Card>
-              <Card className="education-card" bg="AppWorkspace" mt={5}>
+              <Card
+                className="education-card"
+                bg="AppWorkspace"
+                mt={5}
+                style={{
+                  border: "2px solid gray",
+                }}
+              >
                 <Heading size="sm">SDE Intern</Heading>
                 <p>Masai School, Bengaluru</p>
                 <Box>
@@ -200,7 +233,13 @@ function AboutMe() {
             </Box>
           ) : (
             <Stack direction={"row"} gap="20">
-              <Card className="education-card" bg="AppWorkspace">
+              <Card
+                className="education-card"
+                bg="AppWorkspace"
+                style={{
+                  border: "2px solid gray",
+                }}
+              >
                 <Heading size="sm">Mobile Application Developer</Heading>
                 <p>Anugraha Exceed Incorporated, Bengaluru</p>
                 <Box>
@@ -217,7 +256,13 @@ function AboutMe() {
                   </p>
                 </Box>
               </Card>
-              <Card className="education-card" bg="AppWorkspace">
+              <Card
+                className="education-card"
+                bg="AppWorkspace"
+                style={{
+                  border: "2px solid gray",
+                }}
+              >
                 <Heading size="sm">SDE Intern</Heading>
                 <p>Masai School, Bengaluru</p>
                 <Box>

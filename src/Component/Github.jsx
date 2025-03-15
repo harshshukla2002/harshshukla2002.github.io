@@ -27,12 +27,14 @@ function Github() {
           align="center"
           src="https://github-readme-streak-stats.herokuapp.com?user=harshshukla2002&theme=violet-punch"
           alt="harshshukla2002"
+          style={{ border: "2px solid gray", borderRadius: "5px" }}
         />
         <img
           id="github-stats-card"
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=harshshukla2002&show_icons=true&theme=violet-punch"
           alt="harshshukla2002"
+          style={{ border: "2px solid gray", borderRadius: "10px" }}
         />
       </SimpleGrid>
       <div style={{ alignSelf: "center" }}>
@@ -41,9 +43,10 @@ function Github() {
           align="center"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshshukla2002&layout=compact"
           alt="harshshukla2002"
+          style={{ border: "2px solid gray", borderRadius: "10px" }}
         />
       </div>
-      <Card m="20px" p="20px">
+      <Card m="20px" p="20px" style={{ border: "2px solid gray" }}>
         <GitHubCalendar username="harshshukla2002" />
       </Card>
     </div>

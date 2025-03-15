@@ -16,7 +16,7 @@ function Contact() {
           data-aos-duration="2000"
           direction={["column", "row"]}
         >
-          <Card p="20px" m="20px">
+          <Card p="20px" m="20px" style={{ border: "2px solid gray" }}>
             <div className="contact-item">
               <i className="fa fa-map-marker"></i>{" "}
               <span>Rewa, Madhya Pradesh</span>

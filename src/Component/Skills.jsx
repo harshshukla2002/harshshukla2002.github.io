@@ -79,6 +79,23 @@ const Backend = [
   },
 ];
 
+const Database = [
+  {
+    image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+    title: "MongoDB",
+  },
+  {
+    image:
+      "https://seeklogo.com/images/M/mysql-logo-B4943FE6DD-seeklogo.com.png",
+    title: "MySQL",
+  },
+  {
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png",
+    title: "PostgreSQL",
+  },
+];
+
 const Testing = [
   {
     title: "Cypress",
@@ -136,7 +153,7 @@ function Skills() {
             <VStack className="vstack" spacing={5}>
               <Heading size="lg">Languages</Heading>
               <Box
-                boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"
+                style={{ border: "2px solid gray" }}
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
@@ -158,12 +175,12 @@ function Skills() {
             <VStack className="vstack" spacing={5}>
               <Heading size="lg">Front-End</Heading>
               <Box
-                boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
+                style={{ border: "2px solid gray" }}
               >
-                <SimpleGrid columns={[1, 2]}>
+                <SimpleGrid columns={[width > 1050 ? 2 : 1]}>
                   {FrontEnd.map((elem) => {
                     return (
                       <Flex className="skills-card">
@@ -182,7 +199,7 @@ function Skills() {
             <VStack className="vstack" spacing={5}>
               <Heading size="lg">Back-End</Heading>
               <Box
-                boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"
+                style={{ border: "2px solid gray" }}
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
@@ -204,25 +221,29 @@ function Skills() {
             <VStack spacing={5}>
               <Heading size="lg">Database</Heading>
               <Box
-                boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"
+                style={{ border: "2px solid gray" }}
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
               >
-                <Flex className="skills-card">
-                  <img
-                    src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
-                    alt=""
-                    className="skills-card-img"
-                  />
-                  <p className="skills-card-name">mongoDB</p>
-                </Flex>
+                {Database.map((elem) => {
+                  return (
+                    <Flex className="skills-card">
+                      <img
+                        src={elem.image}
+                        alt=""
+                        className="skills-card-img"
+                      />
+                      <p className="skills-card-name">{elem.title}</p>
+                    </Flex>
+                  );
+                })}
               </Box>
             </VStack>
             <VStack className="vstack" spacing={5}>
               <Heading size="lg">Testing</Heading>
               <Box
-                boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"
+                style={{ border: "2px solid gray" }}
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
@@ -244,7 +265,7 @@ function Skills() {
             <VStack className="vstack" spacing={5}>
               <Heading size="lg">Other</Heading>
               <Box
-                boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"
+                style={{ border: "2px solid gray" }}
                 borderRadius="10px"
                 p="10px"
                 className="skills-box"
@@ -277,7 +298,7 @@ function Skills() {
           <Heading>Soft Skills</Heading>
           <div style={{ borderBottom: "5px solid blue", width: "15%" }}></div>
           <Box
-            boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"
+            style={{ border: "2px solid gray" }}
             borderRadius="10px"
             p="10px"
             className="skills-box"

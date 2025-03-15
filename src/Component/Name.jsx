@@ -1,6 +1,5 @@
 import { Flex, Heading, Stack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 
 function NameSection() {
