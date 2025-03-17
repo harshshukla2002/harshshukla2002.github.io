@@ -77,6 +77,11 @@ const Backend = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.svg.png",
     title: "GraphQl",
   },
+  {
+    image:
+      "https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1608%2F0f93b179-76bf-4ee7-a838-e8222fbef062.png",
+    title: "Prisma",
+  },
 ];
 
 const Database = [
@@ -216,18 +221,20 @@ function Skills() {
                 p="10px"
                 className="skills-box"
               >
-                {Backend.map((elem) => {
-                  return (
-                    <Flex className="skills-card">
-                      <img
-                        src={elem.image}
-                        alt=""
-                        className="skills-card-img"
-                      />
-                      <p className="skills-card-name">{elem.title}</p>
-                    </Flex>
-                  );
-                })}
+                <SimpleGrid columns={[width > 1050 ? 2 : 1]}>
+                  {Backend.map((elem) => {
+                    return (
+                      <Flex className="skills-card">
+                        <img
+                          src={elem.image}
+                          alt=""
+                          className="skills-card-img"
+                        />
+                        <p className="skills-card-name">{elem.title}</p>
+                      </Flex>
+                    );
+                  })}
+                </SimpleGrid>
               </Box>
             </VStack>
             <VStack spacing={5}>
