@@ -1,0 +1,50 @@
+{
+  "projects": [
+    {
+      "image": "https://i.postimg.cc/449KH1Vt/Screenshot-2024-12-09-133612.png",
+      "title": "Food Delivery App",
+      "desc": "A food delivery platform where users can order food, make secure payments, and track orders, while admins manage the menu and order statuses.",
+      "tech": [
+        "React",
+        "CSS",
+        "JS",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+        "Stripe",
+        "JSONWebTokens"
+      ],
+      "duration": "1.5 Week",
+      "live": "https://deloffood.netlify.app/",
+      "github": "https://github.com/harshshukla2002/Food-Delivery"
+    },
+    {
+      "image": "https://i.postimg.cc/zDncQfMW/Screenshot-2024-03-14-105934.png",
+      "title": "Recipe Book App",
+      "desc": "Recipe Book is app for select recipe see ingredient, creating recipes, edit recipes and ingredient and also set recipes to shopping list.",
+      "tech": ["Angular", "CSS", "TypeScript", "BootStrap"],
+      "live": "https://recipe-book-app-rust.vercel.app/",
+      "duration": "6 days",
+      "github": "https://github.com/harshshukla2002/Recipe-Book-App"
+    },
+    {
+      "image": "https://i.postimg.cc/XYWsTz07/Screenshot-2024-02-01-151940.png",
+      "title": "Gleams Website",
+      "desc": "This is the ecommerce website where user can purchase online product like jwelery and watches according to their choices.",
+      "tech": ["React", "CSS", "JS", "Redux", "TailwindCSS"],
+      "duration": "5 days",
+      "live": "https://glems-eyy4alzt7-harshshukla2002.vercel.app/",
+      "github": "https://github.com/harshshukla2002/Glems-App"
+    },
+
+    {
+      "image": "https://i.postimg.cc/VLFYGX3H/tripadvisor-clone.png",
+      "title": "TripAdvisor Clone",
+      "desc": "TripAdvisor® is the world's largest travel site, enabling travelers to plan and have the perfect trip. TripAdvisor offers trusted advice from real travelers and a wide variety of travel choices and planning features with seamless links to booking tools.",
+      "tech": ["HTML", "CSS", "JS"],
+      "duration": "1 Week",
+      "live": "https://loquacious-centaur-45f47d.netlify.app/",
+      "github": "https://github.com/harshshukla2002/TripAdvisorClone"
+    }
+  ]
+}

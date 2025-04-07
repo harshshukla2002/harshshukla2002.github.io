@@ -1,0 +1,17 @@
+.pentagon {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px; /* Softly round the outer frame */
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Optional */
+}
+
+.pentagon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

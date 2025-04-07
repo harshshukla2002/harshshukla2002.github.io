@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "icon": "desktop",
+      "title": "Web & App Development",
+      "description": "Building responsive and scalable web and mobile applications using modern technologies like HTML, CSS, JavaScript, React, Angular, and Next.js to deliver seamless user experiences."
+    },
+    {
+      "icon": "database",
+      "title": "Database Management",
+      "description": "Designing and maintaining efficient, secure, and scalable databases using SQL and NoSQL solutions to ensure data integrity and optimized performance."
+    },
+    {
+      "icon": "api",
+      "title": "API Development",
+      "description": "Creating robust and secure RESTful and GraphQL APIs to enable seamless communication between frontend and backend systems."
+    },
+    {
+      "icon": "performance",
+      "title": "Performance Optimization",
+      "description": "Enhancing the speed, responsiveness, and efficiency of web and mobile applications through advanced optimization techniques and performance best practices."
+    },
+    {
+      "icon": "ai",
+      "title": "Integrating AI",
+      "description": "Leveraging AI and machine learning technologies to build intelligent features like recommendations, chatbots, and data-driven insights within digital products."
+    }
+  ]
+}

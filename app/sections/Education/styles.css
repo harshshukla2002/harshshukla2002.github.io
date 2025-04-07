@@ -1,0 +1,50 @@
+/* .wrapper {
+  font-size: 14px;
+  border: 1px solid #ccc;
+} */
+
+.StepProgress {
+  position: relative;
+  padding-left: 45px;
+  list-style: none;
+}
+.StepProgress::before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 13px;
+  width: 10px;
+  height: 100%;
+  border-left: 2px solid #ccc;
+}
+.StepProgress-item {
+  position: relative;
+}
+.StepProgress-item:not(:last-child) {
+  padding-bottom: 25px;
+}
+.StepProgress-item::before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: -30px;
+  height: 100%;
+  width: 10px;
+}
+.StepProgress-item::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -36px;
+  width: 10px;
+  height: 10px;
+  /* border: 2px solid #ccc; */
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.dark.StepProgress-item::after {
+  background-color: black;
+}

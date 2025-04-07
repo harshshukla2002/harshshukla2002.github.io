@@ -1,0 +1,31 @@
+{
+  "Skills": [
+    "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+    "https://cdn.worldvectorlogo.com/logos/react-native-1.svg",
+    "https://img.icons8.com/fluent-systems-filled/200/40C057/nextjs.png",
+    "https://img.icons8.com/?size=512&id=SDVmtZ6VBGXt&format=png",
+    "https://cdn.iconscout.com/icon/free/png-256/free-mysql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-3030165.png?f=webp&w=256",
+    "https://static-00.iconduck.com/assets.00/postgresql-icon-1987x2048-v2fkmdaw.png",
+    "https://www.svgrepo.com/show/331488/mongodb.svg",
+    "https://static-00.iconduck.com/assets.00/typescript-icon-icon-2048x2048-2rhh1z66.png",
+    "https://cdn.iconscout.com/icon/free/png-256/free-graphql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-3-pack-logos-icons-2944912.png?f=webp"
+  ],
+
+  "frontend": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Typescript",
+    "React",
+    "Redux",
+    "React Native",
+    "NextJS",
+    "Zustand",
+    "React Query"
+  ],
+  "backend": ["NodeJs", "ExpressJS", "GraphQl", "Prisma"],
+  "database": ["MongoDB", "MySQL", "Postgres"],
+  "tools": ["Git"],
+  "others": ["VS Code", "Jest"]
+}

@@ -1,0 +1,51 @@
+{
+  "Companies": [
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvMlUcVtkInp6Muk6LBnyj8vXgCDAfErfkZg&s",
+      "company": "Kazam",
+      "duration": "Feb 2025 - Present"
+    },
+    {
+      "image": "https://anugraha.co/logo.png",
+      "company": "Anugraha Exceed Incorporated",
+      "duration": "June 2024 - Nov 2024"
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZWcsew_2xe0JXFUaBsaYYZxuuQIMfpakcQA&s",
+      "company": "Masai School",
+      "duration": "Nov 2023 - May 2024"
+    }
+  ],
+  "CompanyDetails": [
+    {
+      "company": "Kazam",
+      "position": "Junior Software Developer",
+      "job-description": [
+        "React Native App Development: Led the development of a white-labeled React Native app, integrating features like dynamic branding, Firebase, and Fastlane automation.",
+        "Navigation and Maps Integration: Implemented navigation features, including Drawer, Stack, and Bottom Tab navigation, with maps integration and random marker placement.",
+        "Branding and Versioning: Managed branding switches and build/version automation with Fastlane to cater to multiple brand configurations."
+      ],
+      "technologies": ["React Native", "Fastlane", "Firebase"]
+    },
+    {
+      "company": "Anugraha Exceed Incorporated",
+      "position": "Mobile Application Developer",
+      "job-description": [
+        "Pilot Training App Development: Developed multiple aviation-related forms and streamlined data entry processes for airline pilot training using React Native.",
+        "Calendar Integration: Built a calendar event page for scheduling pilot training sessions, improving user experience and efficiency.",
+        "Cross-Functional Collaboration: Worked closely with the design and backend teams to ensure smooth app functionality and user interface."
+      ],
+      "technologies": ["React Native"]
+    },
+    {
+      "company": "Masai School",
+      "position": "SDE Intern",
+      "job-description": [
+        "Developed and Maintained Mobile App Features: Worked on the Trifit mobile application, specifically focusing on the login and user profile sections, using React Native.",
+        "State Management: Utilized Redux to manage the state effectively and ensure seamless user interactions.",
+        "Backend Development: Collaborated on backend tasks, integrating APIs and ensuring smooth communication between the frontend and backend systems."
+      ],
+      "technologies": ["NodeJs", "React", "MongoDB", "React Native"]
+    }
+  ]
+}

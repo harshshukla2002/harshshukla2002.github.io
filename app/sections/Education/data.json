@@ -1,0 +1,14 @@
+{
+  "education": [
+    {
+      "duration": "Aug 2022 - Oct 2023",
+      "from": "Masai School",
+      "degree": "Full Stack Web Development (Full Time)"
+    },
+    {
+      "duration": "July 2019 - June 2022",
+      "from": "Awadesh Pratap Singh University",
+      "degree": "Bachelor's Degree in Computer Science"
+    }
+  ]
+}
